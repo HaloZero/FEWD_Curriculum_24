@@ -1,0 +1,15 @@
+In this lab, students will build a version of the classic "Hot" or "Not" website. Depending on your class type and teaching style, you can do variations on this theme (cute or not with puppies, edible or not with plants, etc). However, we recommend using the provided GA instructor photos. 
+
+Students will use an onclick method to go back a picture and an onchange method to give a hotness (cuteness, edibleness, etc) ranking between 1 and 5.
+
+
+The first part of this exercise is TIMED!! 
+1) 5 minutes: Box out the exercise from image
+2) 10 minutes: Create the HTML for the page from the design
+3) 15 minutes: Add the CSS to style the page. Make any needed HTML modifications.
+4) The remainder of the time should be used to implement the JS code. 
+Topics used: Arrays/array methods, events, variables, functions
+
+Bonus: Create a blocking element (100% height, 100% width, fixed position 0 0) with a "START" button that will hide the page until the button is clicked. Fade out the blocker when the button is clicked to show the underlying page. 
+
+Bonus: After clicking through all the images, display the average hotness score for all GA teachers.
