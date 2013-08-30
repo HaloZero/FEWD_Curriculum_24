@@ -3,25 +3,25 @@ var images=["images/Will.jpg","https://d3o09jpaxs6yh2.cloudfront.net/production/
 "https://d3o09jpaxs6yh2.cloudfront.net/production/assets/student_stories/circles/benji-94c7e7372199cb2cce87bda8a7c4dba2.jpg"];
 var i=0;
 var votes=[];
+function previousImage(){
+	i>0 ? changeImage(--i):0;
+}
 function nextImage(){
-	if(i+1!==images.length){
-		i++;
-		changeImage();
-	}
-	else{
-		var ave=0;
-		if(votes.length!==0){
-			votes.forEach(function(element){
-				ave+=parseInt(element);
-			});
-			ave=(Math.round((ave/votes.length) * 100) / 100).toFixed(2);
-		}
-		$("#image-to-vote-on+div").text("You have reached the end. Total hotness score was: "+ave);
-	}
+	i+1<images.length ? changeImage(++i):calculateVotes();
 }
 function changeImage(){
 	$("#image-to-vote-on").attr("src",images[i]);
-	$("#your-vote").children("option").removeAttr("selected")
+	$("#your-vote>option").removeAttr("selected");
+}
+function calculateVotes(){
+	var ave=0;
+	if(votes.length!==0){
+		votes.forEach(function(element){
+			ave+=parseInt(element);
+		});
+		ave=(Math.round((ave/votes.length) * 100) / 100).toFixed(2);
+	}
+	$("#image-to-vote-on+div").text("You have reached the end. Total hotness score was: "+ave);
 }
 $(document).ready(function(){
 	$("#your-vote").on("change",function(){
@@ -31,11 +31,5 @@ $(document).ready(function(){
 		}
 	});
 	$("#buttons-wrapper .btn[value='Skip']").on("click",nextImage);
-	$("#buttons-wrapper .btn[value='Back']").on("click",function(){
-		if(i!==0){
-			i--;
-			changeImage();
-		}
-	});
+	$("#buttons-wrapper .btn[value='Back']").on("click",previousImage);
 });
-

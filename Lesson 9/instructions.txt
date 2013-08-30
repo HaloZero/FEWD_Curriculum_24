@@ -1,0 +1,14 @@
+In this lab, you will build a version of the classic Hot or Not website. The first 30 minutes will be spent building the page from the provided image using just HTML/CSS. 
+
+
+The remainder of the time should be used to implement the following actions:
+1) Create an array of the images you wish to use for the game
+2) Attach events to the "Skip" and "Back" buttons that will allow the game player to skip an image or go back an image
+3) Attach an event to the select field to record when the user votes (think about what action the user would take to vote)
+3a) When the user votes, you should record their vote and proceed to the next image
+4) When the user reaches the last image display some text that let's the user know they have finished the game.
+
+
+Bonus: Create a blocking element (100% height, 100% width, fixed position 0 0) with a "START" button that will hide the page until the button is clicked. Fade out the blocker when the button is clicked to show the underlying page. 
+
+Bonus: After clicking through all the images, display the average hotness score for all images.
