@@ -1,0 +1,115 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#page-header {
+	background: black;
+	color: white;
+	overflow: hidden;
+	border-bottom: 4px solid yellow;
+}
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+#page-header h1 {
+	float: left;
+	color: yellow;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+	margin: 20px 0 0 2%;
+}
+#page-header nav {
+	float: right;
+	margin-right: 2%;
+}
+#page-header nav li {
+	float: left;
+}
+#page-header nav a {
+	display: block;
+	padding: 20px 10px;
+}
+#page-header nav li a:hover {
+	color: yellow;
+}
+#page-header nav strong {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+#page-header nav strong a {
+}
+
+
+.tagline {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	margin: 0;
+	padding: 1em 2%;
+	font-size: 1.25em;
+	line-height: 1em;
+	font-style: italic;
+	background: #BBB;
+	border-top: 1px solid #AAA;
+}
+.tagline del {
+	color: #999;
+}
+.tagline ins {
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+}
+
+.banner {
+	background: url(../images/coworking.jpg) center center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 2%;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+.blurb {
+	background: rgba(255,255,255,.8);
+	width: 30%;
+	margin: 0 auto;
+	padding: 10% 5%;
+	float: right;
+}
+
+.touts {
+	background: #EEE;
+	overflow: hidden;
+	padding: 2%;
+}
+.tout {
+	float: left;
+	width: 28%;
+	background: white;
+	padding: 2%;
+	margin-right: 2%;
+}
+.tout:last-child {
+	float: right;
+	margin-right: 0;
+}
