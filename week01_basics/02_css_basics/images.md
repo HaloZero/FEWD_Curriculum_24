@@ -78,7 +78,3 @@ There are also three main image file formats:
 1. **`gif`** - can have basic transparency, typically a `png` is used instead.
 2. **`jpeg`** - no transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
 3. **`png`** - supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
-		
-		
-				
-			
