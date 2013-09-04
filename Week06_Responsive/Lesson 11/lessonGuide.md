@@ -94,99 +94,92 @@ Add your own examples
 IN CLASS LABS
 --------
 
-###1.	"this" example
+###1.	Box layout 1
 
 <table>
   <tr>
     <th>Learning Objective</th>
-    <td>Understand this in the jQuery context</td>
-  </tr>
-  
-    <tr>
-    <th>Resource Files</th>
-    <td>examples/ex_this</td>
-  </tr>
-  
- <tr>
-    <th>Description</th>
-    <td></td>
-  </tr>
-  
- <tr>
-    <th>Activity Type</th>
-    <td>Walk through w/ instructor</td>
-  </tr>
-  
-</table>
-
-**Task Instructions**
-Open the example in the browser, paste the code from the slides into the console.
-
-
-###2.	Refactoring CSS
-
-<table>
-  <tr>
-    <th>Learning Objective</th>
-    <td>Be able to see where CSS can be cleaned up and made easier to read</td>
+    <td>Be able to build a basic layout with borders to mark where the individual elements are.</td>
   </tr>
   
     <tr>
     <th>Resources Files</th>
-    <td>ex_css_refactor</td>
+    <td>Boxing_1_IMG, boxing_1_solution</td>
   </tr>
   
  <tr>
     <th>Description</th>
-    <td>This exercise provides a number of examples the instructor can use to show refactoring techniques</td>
+    <td>This exercise has students build a sample layout from scratch using the provided image.</td>
   </tr>
   
      <tr>
     <th>Activity Type</th>
-    <td>Walk through w/ instructor</td>
+    <td>In-class lab</td>
   </tr>
   
 </table>
-
 **Task Instructions**
 
-Use the examples from the file to walk through the different methods of refactoring CSS that are talked about in the slides. Feel free to include your own examples. 
-	
+Have the students build the first boxing exercise layout using html/css from the provided image.
 
-###3.	Refactoring JS
+###2. Box layout 1 continued
 
 <table>
   <tr>
     <th>Learning Objective</th>
-    <td>Be able to see where code can be shortened, cleaned up and made easier to read</td>
+    <td>Be able to modify existing CSS by using the cascading principle (as opposed to just changing the original CSS).</td>
   </tr>
   
     <tr>
     <th>Resources Files</th>
-    <td>ex_js_refactor</td>
+    <td>Boxing_2_IMG, boxing_1_solution</td>
   </tr>
   
  <tr>
     <th>Description</th>
-    <td>This exercise provides a number of examples the instructor can use to show refactoring techniques</td>
+    <td>This exercise has students modify the CSS from their first layout to achieve a different look with the same HTML.</td>
   </tr>
   
      <tr>
     <th>Activity Type</th>
-    <td>Walk through w/ instructor</td>
+    <td>In-class lab</td>
   </tr>
   
 </table>
 
 **Task Instructions**
 
-Use the examples from the file to walk through the different methods of refactoring code that are talked about in the slides. Feel free to include your own examples. 
+For the second boxing exercise, have the students open the main css for the first exercise and place a comment at the bottom (something like, /*overwriting CSS for new layout goes here*/). Below this line, have them add CSS that will make their original page look like the Boxing_2_IMG file.
 
+###3. Box layout 1 media queries
+
+<table>
+  <tr>
+    <th>Learning Objective</th>
+    <td>Be able to apply media queries to a style sheet so that certain style o</td>
+  </tr>
+  
+    <tr>
+    <th>Resources Files</th>
+    <td>Boxing_2_IMG, boxing_1_solution</td>
+  </tr>
+  
+ <tr>
+    <th>Description</th>
+    <td>This exercise introduces media queries to the students.</td>
+  </tr>
+  
+     <tr>
+    <th>Activity Type</th>
+    <td>In-class lab</td>
+  </tr>
+  
+</table>
+**Task Instructions**
+
+Students will add a media query around their second set of CSS so that the style will only apply when the window is less than 768px wide.
 
 HOMEWORK
 --------
-CSS Refactor and JS Refactor
-Students should start these activities in class with help from the instructor. They should work on applying the debugging and refactoring techniques discussed in the presentation. Answers are given in the solutions folder. 
 
-Tip: If students are stuck, have them go back to the slides and use the list of methods for refactoring as a jumping off point to get started.
 
