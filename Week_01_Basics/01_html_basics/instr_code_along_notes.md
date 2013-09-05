@@ -13,6 +13,8 @@
 
 ####Task Instructions
 
+See http://codepen.io/nevan/pen/IBvLh
+
 Write instructions for code demo here.
 
 ####Instructional Design Notes
