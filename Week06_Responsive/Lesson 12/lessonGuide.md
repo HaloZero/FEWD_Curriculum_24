@@ -90,20 +90,33 @@ IN CLASS LABS
 <table>
   <tr>
     <th>Learning Objective</th>
-    <td>Be able to build a basic layout with borders to mark where the individual elements are.</td>
+    <td>Conversion of existing site to responsively design site</td>
+  </tr>
+ <tr>
+    <th>Resource Files</th>
+    <td>startup_matchmaker_responsive</td>
   </tr>
   
+ <tr>
+    <th>Description</th>
+    <td>Students will convert the fixed layout Startup Matchmaker to a responsively designed site</td>
+  </tr>
+  
+ <tr>
+    <th>Activity Type</th>
+    <td>In-class lab</td>
+  </tr>
     
   
 </table>
 **Task Instructions**
 
-Have the students build the first boxing exercise layout using html/css from the provided image.
+The students should draw out how the website would look on a standard mobile device. To do this, they should follow the tips in the slides related to stacking content and hiding content. Once they have the design, they should add the CSS within a max-width: 768px media query that makes their current site look like the design they came up with. After completing the CSS, the students should write the JS that makes the nav open and close when clicked.
 
-
+Note: The nav links should be hidden when the page is small and a menu button (three lines) should be shown.
 
 
 HOMEWORK
 --------
 
-Finish matchmaker and complete the SweetHatClub exercise.
+Finish Matchmaker and complete the SweetHatClub exercise.
