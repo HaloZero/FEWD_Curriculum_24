@@ -19,7 +19,10 @@ div {
      line-height: 0;
      height: 0;
 }
-
+body{
+	width:96%;
+	margin-left:2%;
+}
 /*Upper half styles*/
 .head-col{
 	width: 38%;
@@ -101,6 +104,10 @@ div {
 }
 
 @media screen and (max-width:768px){
+	body{
+		width:90%;
+		margin-left:5%;
+	}
 	.head-col>div:first-child>div,#bigPic>div:first-child{
 		float: none;
 		margin:0 auto;
@@ -125,6 +132,10 @@ div {
 }
 
 @media screen and (max-width:480px){
+	body{
+		width:70%;
+		margin-left:15%;
+	}
 	#leftHead,#bigPic,.user-profile{
 		display: none;
 	}
