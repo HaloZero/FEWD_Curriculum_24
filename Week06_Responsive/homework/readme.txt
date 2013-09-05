@@ -1,7 +1,12 @@
 This homework is based off of the website sweethatclub.com.
 
-1) Box out image_1 and create the layout like we did in class
-2) Below the CSS you generated for the template created from image 1, write CSS that makes the page look like image 2
-2a) Wrap this new CSS in a media query that will apply the style when the page is between 768px and 991px wide
-3) Below the CSS you generated for the template created from image 2, write CSS that makes the page look like image 3
-3a) Wrap this new CSS in a media query that will apply the style when the page is less than 768px wide
+1) Build the website for boxing-images/full-screen.png
+2) Add css that will make the site from step one look like boxing-images/mid-screen.png
+3) Add css that will make the site from step two look like boxing-images/tiny-screen.png
+4) Wrap the CSS from steps 2 and 3 in media queries
+4a) For step 2, media query max width is 768px
+4b) For step 3, media query max width is 480px
+
+Notes: The original images can be found in the site-images folder
+
+For an extra hard time, try adding content to your new responsive template!
