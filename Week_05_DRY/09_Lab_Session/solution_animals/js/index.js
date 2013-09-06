@@ -19,7 +19,7 @@ function calculateVotes(){
 		});
 		ave=(Math.round((ave/votes.length) * 100) / 100).toFixed(2);
 	}
-	$("#image-to-vote-on+div").text("You have reached the end. Total hotness score was: "+ave);
+	$("#image-to-vote-on+div").text("You have reached the end. Total cuteness score was: "+ave);
 }
 $(document).ready(function(){
 	$("#your-vote").on("change",function(){
