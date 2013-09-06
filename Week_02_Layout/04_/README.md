@@ -24,8 +24,7 @@
 
 #### Page Layout
 
-http://codepen.io/nevan/pen/nHIEo
-
+See http://codepen.io/nevan/pen/nHIEo
 Shows some basic HTML5 structural elements (header, aside, footer), and introduces floating.
 
 ###Homework
