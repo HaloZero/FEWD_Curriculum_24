@@ -10,6 +10,7 @@
 *	
 
 
+
 ###Schedule
 
 
@@ -20,6 +21,11 @@
 | 00 min | | | |
 | 00 min | | | |
 
+
+#### Page Layout
+
+See http://codepen.io/nevan/pen/nHIEo
+Shows some basic HTML5 structural elements (header, aside, footer), and introduces floating.
 
 ###Homework
 
