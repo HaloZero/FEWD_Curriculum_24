@@ -30,6 +30,10 @@ See http://codepen.io/nevan/pen/vtorn
 
 See http://codepen.io/nevan/pen/JnfEd
 
+#### Nested Selectors
+
+See http://codepen.io/nevan/pen/gFAfh
+
 ###Homework
 
 *	
