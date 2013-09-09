@@ -2,20 +2,17 @@
 
 Remember to share the [starter_code](starter_code/) at the beginning of class. Share code_along solutions before lab time so students have an example to reference. 
 
+##[GA_Application_Page](Link To Starter Code)
 
-###[Exercise Name](Link To Starter Code)
+###Time: 90 min
 
-####Time: 00 min
-
-| | |
-| ------------- |:-------------|
-| __Topics__ | | 
-| __Description__| |    
- 
+Topics
+-Forms, inputs, labels, (optional fieldset/legend)
+-Layout 
+Description
+-Exercise is designed to show students that data actually is sent somewhere when they click a submit button.
 
 ####Instructional Design Notes 
-
-*	To be completed with Education Product Manager
-
-__Note:__	Copy and paste template above if there are multiple Code Demos. 
-
+-You should show the form being built from scratch
+-Make sure to point out the query string parameters and don't forget the method="GET"!
+-You can optionally show a POST request and use the console's network tab to show the post data
