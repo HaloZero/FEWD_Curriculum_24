@@ -1,0 +1,24 @@
+Searching tips
+-Add information on the language
+	-Specify what language your question is about (css,html,js)
+	-run code on click event => run code on click event js
+	-how to add a border to a box => how to add a border to a box css
+
+-Search one action at a time
+	-Don't: Give a box a border when when the user clicks a button
+	-Do: how to add a border to a box
+	     run code when a user clicks on a button
+
+-Add information we know from class
+	-What is a box really?
+		-Why it's a div of course!
+		-how to add a border to a box => how to add a border to a div
+
+	-What happens when the user clicks a button?
+		-The browser emits a "click" event
+		-run code when a user clicks on a button => run code on click event
+
+
+
+Study your fundamentals! If you don't know what functions, variables, data types, conditionals, and loops are, you're not going to be able to understand any of the JS answers you find.
+

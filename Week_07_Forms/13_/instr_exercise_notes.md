@@ -10,9 +10,9 @@ Topics
 -Forms, inputs, labels, (optional fieldset/legend)
 -Layout 
 Description
--Exercise is designed to show students that data actually is sent somewhere when they click a submit button.
+-Students will build the GA application page from the provided screenshot
 
-####Instructional Design Notes 
--You should show the form being built from scratch
--Make sure to point out the query string parameters and don't forget the method="GET"!
--You can optionally show a POST request and use the console's network tab to show the post data
+####Instructional Design Notes
+-It is up to the instructor to determine whether to discuss fieldsets and legends. You may either have students look these up using w3schools or discuss them in class. As a learning exercise, you may want to have them use divs and h2 tags and then discuss how there's special tags just for forms that do the same thing.
+-Students will have to look up the optgroup tag. Since they've seen forms they should have the knowledge to look this up. If students are having difficulty, go over the searching_for_answers file. 
+-Students don't need to do all of the styling for the form. Centering the form and getting the information on the right rows is considered sufficient.
