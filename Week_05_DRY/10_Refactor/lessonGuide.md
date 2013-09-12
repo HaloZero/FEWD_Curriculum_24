@@ -61,12 +61,16 @@ This is a suggested guide for each topic. We also included suggested materials a
     <td>"this" keyword</td>
     <td>examples/ex_this</td>
   </tr>
-  
+<tr>
+    <td>20 min</td>
+    <td>Refactoring</td>
+    <td>examples/coa_color_scheme</td>
+</tr>  
 <tr>
     <td>80 min</td>
     <td>Refactoring</td>
     <td>examples/ex_js_refactor,examples/ex_css_refactor</td>
-  </tr>
+</tr>
   
 <tr>
     <td>80 min</td>
@@ -112,8 +116,34 @@ IN CLASS LABS
 **Task Instructions**
 Open the example in the browser, paste the code from the slides into the console.
 
+###2. COA_Color_Scheme
+<table>
+  <tr>
+    <th>Learning Objective</th>
+    <td>Be able to do basic refactoring of CSS and JS</td>
+  </tr>
+  
+    <tr>
+    <th>Resources Files</th>
+    <td>examples/coa_color_scheme</td>
+  </tr>
+  
+ <tr>
+    <th>Description</th>
+    <td>Exercise to practice refactoring code from previous color scheme exercise</td>
+  </tr>
+  
+     <tr>
+    <th>Activity Type</th>
+    <td>Code along</td>
+  </tr>
+  
+</table>
 
-###2.	Refactoring CSS
+**Task Instructions**
+-See code along notes
+
+###3.	Refactoring CSS
 
 <table>
   <tr>
@@ -143,7 +173,7 @@ Open the example in the browser, paste the code from the slides into the console
 Use the examples from the file to walk through the different methods of refactoring CSS that are talked about in the slides. Feel free to include your own examples. 
 	
 
-###3.	Refactoring JS
+###4.	Refactoring JS
 
 <table>
   <tr>
