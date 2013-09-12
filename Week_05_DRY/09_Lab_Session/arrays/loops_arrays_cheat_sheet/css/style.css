@@ -1,0 +1,37 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #666;
+	color:#000;
+	padding:20px;
+}
+
+#wrapper {
+	width:600px;
+	margin:0 auto;
+}
+
+#print {
+	border:1px solid #333;
+	background: #fff;
+	padding:15px 20px 18px 18px;
+	border-radius:5px;
+	margin:0 2% 2% 0;
+	box-shadow: 5px 5px 0px #333;
+}
+
+h1 {
+	color:#fff;
+	text-shadow: 2px 2px 0px #333;
+	margin:0 0 5px;
+	font-size:32px;
+	font-weight:bold;
+}
+
+li {
+	list-style:none;
+	color:#000;
+	font-size:24px;
+	margin:0 0 5px 0;
+	border-bottom:1px dotted #ccc;
+	padding:2px;
+}
