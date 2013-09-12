@@ -15,15 +15,15 @@ Instructors current role.
 
 ---
 
-##Topic
-###Sub Topic
+###Topic
 
-*	
+
 <aside class="notes">
-
+Additional notes
 </aside>
 
 ---
+
 
 
 ![GeneralAssemb.ly](../../../assets/ICL_icons/code_demo_icon_md.png)
@@ -39,7 +39,5 @@ Instructors current role.
 
 ## Homework
 
-*	Review command line and GitHub.
-*	Create your first blog entry.
 
 ---

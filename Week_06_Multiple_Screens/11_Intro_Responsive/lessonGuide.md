@@ -4,29 +4,9 @@ FRONT-END WEB DEVELOPMENT
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 
-LESSON 10: CODE REVIEWS
+LESSON 11: Multiple Screens 1
 ========
 
-BEFORE CLASS YOU SHOULD
---------
-Most lessons will have a running time for each topic, please understand that these times are just suggested estimates and are not strict. 
-	
-1.	Prior to a each lesson read lessonGuide.md This will outline the main learning objectives for the course,
-and will also help you plan and pace yourself during the lesson. 
-	
-2.	Make sure to become familiar with the ICLs and Homework files. 
-You will have to explain homework to students each class and let them know when it will be due.
-Let the homework files be your guide as to what is the minimum you should teach. 
-Students must be prepared to complete HW on their own.
-	
-3.	Read the slide deck and insert your content where it prompts you. 
-Start to make the lesson your own. Make changes to the slide deck where you see fit. 
-If there is an analogy or explanation that doesn't resonate with you, change it.
-Add examples or change the ones we provide if you have a better idea. We want you to bring your expertise to the classroom.
-	
-4.	Post necessary student files to Schoology.
-
-5.	If you made an excellent change, let us know. We like to make sure everyone has the best materials.
 
 
 LEARNING OBJECTIVES
@@ -122,7 +102,7 @@ IN CLASS LABS
 
 Have the students build the first boxing exercise layout using html/css from the provided image.
 
-###2. Box layout 1 continued
+###2. Box layout 1 continued. Overwritting CSS. CSS cascades. Where do you put the mobile stuff.
 
 <table>
   <tr>
@@ -152,6 +132,8 @@ Have the students build the first boxing exercise layout using html/css from the
 For the second boxing exercise, have the students open the main css for the first exercise and place a comment at the bottom (something like, /*overwriting CSS for new layout goes here*/). Below this line, have them add CSS that will make their original page look like the Boxing_2_IMG file.
 
 ###3. Box layout 1 media queries
+
+Teach the media query syntax using the slides. Students will figure this out from the information they have. 
 
 <table>
   <tr>

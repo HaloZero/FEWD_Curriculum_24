@@ -1,3 +1,37 @@
+Where the front and back-end intersect. 
+
+Note to instructor the code is in the slides. And at this point students should be able to take the slides and implement it on their own MUST review the answers.
+
+Should be able to find the answer you know the answer. 
+
+*	opt group
+*	Field set: 
+*	legend: could cover in class? SEO improvements
+
+
+The google to do list. (task under mail contact options.)
+
+
+Choose responsive websites for discussion
+Notes for instructor 
+Grab example code alongs from 1.0.0 array
+For each example => nothing on loops we need a code along for this.
+
+2 other contracts
+
+Object Oriented 
+Passing functions
+
+
+*	Parralax first and then CSS animations
+
+CSS animations in one lesson part of the instructors choice. How is the animation happening. 
+
+Anonymous functions => Where do we explain it. How will we explain this? From named to anymous. Can we answer the why atthsi point? - Why we can use them. A discussion for the reviewers. 
+
+Ways to improve your search results. 
+
+
 #FEWD Revamp - Will Notes
 ----
 

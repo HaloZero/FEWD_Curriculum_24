@@ -39,3 +39,6 @@ Submit each week
 Done by 16-17th
 and style form controls to implement an html form.
 • Differentiate between submit and click event.
+
+Homework/Reminder: 
+Finish Startup Match Maker

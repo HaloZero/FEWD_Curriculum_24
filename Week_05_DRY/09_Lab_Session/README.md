@@ -30,7 +30,8 @@
 ###Things To Add Before Publishing
 
 
-*	
+*	Bonus: Howo does it work. 
+Give them the code for voting. Have them look up how to implement on change. 
 
 
 ###Reviewers Notes

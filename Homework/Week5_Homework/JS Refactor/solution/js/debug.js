@@ -15,7 +15,7 @@ Refactor
 4) Moving forward an image is used in both voting code and skipping code, should be split out
 5) Since we have a nextImage, might as well have a previous image
 6) .children("options") can be part of initial selector
-7) Be really tricky and introduce/use ternary operators (see commented out code)
+7) Be really tricky and introduce/use ternary operators (see commented out code). If your class is not ready refactor code and remove ternary operators.
 */
 (function(){
 	var images=["images/Will.jpg","https://d3o09jpaxs6yh2.cloudfront.net/production/assets/student_stories/circles/larry-05ccd359e37c97852808f81fc8c4d1fe.jpg",
@@ -30,7 +30,7 @@ Refactor
 		}
 		/*i>0 ? changeImage("moveRight",--i):0;*/
 	}
-	function nextImage(){
+	function nextImage(){ 
 		if(i+1<images.length){
 			i++;
 			changeImage("moveLeft");	
