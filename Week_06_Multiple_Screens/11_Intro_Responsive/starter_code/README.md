@@ -28,7 +28,7 @@
 
 ###Task Instructions
 
-*	Using HTML and CSS recreate the image below. 
+*	Add CSS to your file from Boxing 1 to recreate the image below. 
 
 ![boxing 1](Boxing_2_IMG.png)
 
