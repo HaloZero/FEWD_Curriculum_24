@@ -10,7 +10,14 @@
 *	
 
 
+
 ###Schedule
+
+Functions - http://codepen.io/nevan/pen/kBItz
+
+Variables - http://codepen.io/nevan/pen/hAjtq
+
+Conditionals - http://codepen.io/nevan/pen/BkdqI
 
 
 | Time        | Topic| GA ICLs| Comments |
