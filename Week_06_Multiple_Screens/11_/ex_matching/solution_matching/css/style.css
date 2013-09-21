@@ -71,7 +71,9 @@ header {
 }
 
 footer {
-
+     text-align: right;
+     margin-top: 50px;
+     width: 795px;
 }
 
 /******************************************
@@ -85,7 +87,7 @@ footer {
      text-align: center;
      border-radius: 10px;
 }
-#gameOver,#game-cards{
+#gameOver{
      display:none;
 }
 .cards{
@@ -94,6 +96,7 @@ footer {
      background-image:url(../images/back-of-card.png);
      cursor:pointer;
      margin:10px;
+     float: left;
 }
 .matched{
      border:1px solid green;

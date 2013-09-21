@@ -26,7 +26,7 @@ function shuffleCards(cards){
 		cards[randomIndex] = temporaryValue;
 	}
 	cards.each(function(index,card){
-		$("#game").prepend(card);
+		$("#game-cards").prepend(card);
 	});
 	return cards;
 }
@@ -53,8 +53,8 @@ function cheat(){
 			var selectedItemClass=$(".selected").attr("class");
 			var aCardIsSelected=selectedItemClass!=undefined;
 			var hoveredCardIsNotAlreadySelectedCard=!$(this).hasClass("selected");
-			var hoveredCardHasSameClassAsSelectedCard=selectedItemClass.indexOf(hoverItemClass)!=-1;
-			if(aCardIsSelected && hoveredCardIsNotAlreadySelectedCard && hoveredCardHasSameClassAsSelectedCard){
+			var hoveredCardIsSameAsSelectedCard=selectedItemClass.indexOf(hoverItemClass)!=-1;
+			if(aCardIsSelected && hoveredCardIsNotAlreadySelectedCard && hoveredCardIsSameAsSelectedCard){
 				$(this).addClass("cheat");
 			}
 		}).on("mouseleave",function(){
@@ -70,11 +70,16 @@ $(document).ready(function(){
 	$(".cards").on("click",function(){
 		//if cheat mode enabled, to avoid using indexof or replace
 		$(this).removeClass("cheat");
+		
 		//hack for no settimeout
+
+		//if 2 are selected on first click, this is a new matching attempt so hide selected cards
 		if($(".selected").length==2){
 			$(".selected").removeClass("selected");
 		}
+
 		//feel free to use toggle class (but only if you want to allow them to turn over a card they just turned over)
+
 		//if card hasn't already been matched, select it
 		if(!$(this).hasClass("matched")){
 			$(this).addClass("selected");	
@@ -88,7 +93,7 @@ $(document).ready(function(){
 				$(".selected").addClass("matched").removeClass("selected");
 			}
 		}
-		//game over
+		//game over when all cards have class "matched"
 		if($(".matched").length==$(".cards").length){
 			handleEndOfGame();
 		}
@@ -96,34 +101,3 @@ $(document).ready(function(){
 	$("#start,#reset").on("click",newGame);
 	$("#cheat").on("click",cheat);
 });
-
-
-
-//Feel free to show students how to write a simple jquery plugin
-(function($) {
-	$.fn.shuffle=function(){
-		var currentIndex = this.length, temporaryValue, randomIndex;
-
-		// While there remain elements to shuffle...
-		while (0 !== currentIndex) {
-			// Pick a remaining element...
-			randomIndex = Math.floor(Math.random() * currentIndex);
-			currentIndex -= 1;
-
-			// And swap it with the current element.
-			temporaryValue = this[currentIndex];
-			this[currentIndex] = this[randomIndex];
-			this[randomIndex] = temporaryValue;
-		}
-		this.each(function(index,element){
-			$(element).parent().prepend(element);
-		});		
-		return this;
-	}
-	$.fn.matches=function(cardToMatch){
-		if($(this).eq(0).attr("class")==$(cardToMatch).attr("class")){
-			return true;
-		}
-		return false;
-	}
-})(jQuery);
