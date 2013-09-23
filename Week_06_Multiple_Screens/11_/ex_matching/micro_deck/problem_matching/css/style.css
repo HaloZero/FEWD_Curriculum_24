@@ -74,24 +74,7 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES                   
 /*******************************************/
-#image-container-wrapper{
-     width:500px;
-     height:315px;
-     overflow: hidden;
-}
-#image-container{
-     width:1000px;
-}
-img{
-     margin-left:0;
-     width:500px;
-     -webkit-transition: margin-left 1s ease;
-     -moz-transition: margin-left 1s ease;
-     transition: margin-left 1s ease;
-}
-.img-moved-left{
-     margin-left:-500px;
-}
+
 
 
 
