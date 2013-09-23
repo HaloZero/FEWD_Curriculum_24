@@ -3,14 +3,14 @@
 Remember to share the [starter_code](starter_code/) at the beginning of class. Share code_along solutions before lab time so students have an example to reference. 
 
 
-###[Exercise Name](Link To Starter Code)
+###[Egg drop](Link To Starter Code)
 
-####Time: 00 min
+####Time: 120 min
 
 | | |
 | ------------- |:-------------|
-| __Topics__ | | 
-| __Description__| |    
+| __Topics__ | CSS animation, transitions, jQuery, events, variables, ifs, pseudocode, reading code| 
+| __Description__| The exercise is a classic egg drop game. Students will repair the code and fill in missing information in order to be able to play the game.|    
  
 
 ####Instructional Design Notes 
