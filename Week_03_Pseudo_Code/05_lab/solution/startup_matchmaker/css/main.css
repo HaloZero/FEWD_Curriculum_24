@@ -68,10 +68,13 @@ p {
 }
 #page-header nav a {
 	display: block;
-	padding: 20px 10px;
+	padding: 20px 15px;
 }
 #page-header nav li a:hover {
 	color: yellow;
+}
+#page-header nav li.active a {
+	background: #666;
 }
 #page-header nav strong {
 	font-family: 'Oswald', sans-serif;
@@ -134,6 +137,47 @@ p {
 }
 .tout .button {
 	background: #C6C6C6;
+}
+
+.profiles {
+	background: #C6C6C6;
+	padding: 10px;
+}
+.cards {
+	overflow: hidden;
+}
+.card {
+	float: left;
+	width: 25%;
+}
+.card img {
+	max-width: 100%;
+}
+.card article {
+	background: white;
+	margin: 10px;
+	padding: 10px;
+}
+.card .button {
+	font-size: .75em;
+}
+
+.tags {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.tags li {
+	float: left;
+}
+.tags li a {
+	display: block;
+	background: #666;
+	padding: 1px 12px;
+	border-radius: 100px;
+	font-size: .75em;
+	margin: 0 5px 5px 0;
+	color: white;
+	text-decoration: none;
 }
 
 footer {
