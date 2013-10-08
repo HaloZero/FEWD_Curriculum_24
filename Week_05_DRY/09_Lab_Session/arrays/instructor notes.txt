@@ -1,1 +1,0 @@
-Introduce arrays as just a way to store collections of data. Then focus on the syntax over accessing individual elements of the array. Understanding the accessing of individual elements will come in more advanced material that includes for and while loops.
