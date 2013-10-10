@@ -17,7 +17,7 @@
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
 | 20 min | Arrays | [Arrays]() | Simple code along to demonstrate collections/arrays and index. |
-| 20 min | Loops | [For Each]() | Explain looping context. We only show For Each loop due to this being a beginner course. If your class is advanced, an instructor can chose to show other loops. |
+| 20 min | Loops | [For Each]() | Explain looping context. We only show For Each loops due to this being a beginner course. If your class is advanced, an instructor can chose to show other loops. |
 | 140 min | Lab Time| [Image Carousel]() |  |
 
 
