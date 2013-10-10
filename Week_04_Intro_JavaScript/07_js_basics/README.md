@@ -54,7 +54,7 @@
 *	The goal of this exercise is that it becomes a reference when students want to use a click event and make changes to the DOM through JS.
 
 
-*	This is the opportunity to discuss syntax (semicolon, brackets rules, etc.) and also further breakdown how the program is read. 
+*	This is the opportunity to discuss syntax (semicolon, brackets rules, etc.) and also further break down how the program is read. 
 
 *	Spend time explaining the click function and how the program waits for the button to be clicked before anything happens. 
 
@@ -119,7 +119,7 @@ To come in next 2 weeks. Still debating what is the best exercise for this lesso
 
 __IDEA__: 
 
-We could have a text box, where users enter a degree click Celsius or Fareiheint, the temp converts and the background changes to represent that temperature. If it is hot a sunny background. If its cold, a winter background.
+We could have a text box, where users enter a degree, click Celsius or Fahrenheit amd the temp converts and the background changes to represent that temperature. If it is hot, a sunny background. If it's cold, a winter background.
 
 ####Time: 00 min
 
