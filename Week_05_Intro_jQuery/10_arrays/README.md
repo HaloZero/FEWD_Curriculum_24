@@ -95,7 +95,7 @@ In this lab, students will build a version of the carousel. Students can choose 
 	3. After 30 min, provide students with HTMl/CSS code to start. The remainder of the time should be used to implement the JS code. This exercise can carry over into next week if not complete.
 
 
-__Bonus__: They will use an .onchange method to give a ranking to the photos between 1 and 5. The user should be forwarded to the next image after voting.
+__Bonus__: They will use the change event to give a ranking to the photos between 1 and 5. The user should be forwarded to the next image after voting.
 
 
 ---
