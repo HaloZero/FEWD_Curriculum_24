@@ -27,7 +27,7 @@ Instructors current role.
 
 ##Arrays
 
-What if we had a collection of images that we wanted to display to the screen on at a time? 
+What if we had a collection of images that we wanted to display to the screen one at a time? 
 
 How could we store all the images? 
 
