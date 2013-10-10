@@ -43,7 +43,7 @@
 
 *	Demo the site to students and ask them to recreate the memory game.
 
-*	Students will have the entire class to build the memory game. The goal of this exercise is to divide and conquer. Students should write pseudo code first and think through each functionality. 
+*	Students will have the entire class to build the memory game. The goal of this exercise is to divide and conquer. As always, before writing any JS students should have all functionality written out in pseudo code. Some students get lazy and skip the pseudo code. DO NOT LET THEM DO THIS. It will only cause you pain. 
 
 *	They should start by completing the HTML for the game (game container, game cards, reset buttons, etc). Time box this section to 20 min.
 
