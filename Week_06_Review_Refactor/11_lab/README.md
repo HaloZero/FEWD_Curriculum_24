@@ -58,9 +58,10 @@
 
 __BONUS__ For students who would like a more challenging exercise, ask them to complete the following.
 
-*	Use the web to find a function to shuffle the cards. Should you have more advanced students, you can show them how to make a simple jQuery extensions that will shuffle any matched elements for a jQuery selector.
+*	Use the web to find a function to shuffle the cards. Should you have more advanced students, you can show them how to make a simple jQuery extension that will shuffle any matched elements for a jQuery selector.
 	*	For shuffling, students should find a shuffle function online and use it
-	*	If you have advanced students, feel free to show them how to write a jQuery extension source of shufflecards: http://stackoverflow.com/questions/2450954/how-to-randomize-a-javascript-array
+	*	If you have advanced students, feel free to show them how to write a jQuery extension
+	*	source of solution's shufflecards: http://stackoverflow.com/questions/2450954/how-to-randomize-a-javascript-array
 
 *	Track number of moves it took to match all cards
 
