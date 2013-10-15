@@ -7,11 +7,11 @@ Welcome to the FEWD Curriculum v. 2.0.0.
 
 This repository contains all the materials GA supplies its Front-End Web Development instructors. 
 
-General Assembly's Front-End Web Development (FEWD) course is made up of 20 lessons that are 3 hours each. The first 10 lessons cover HTML/CS/JSS Basics and the following 10 cover how to build websites in concert. 
+General Assembly's Front-End Web Development (FEWD) course is made up of 20 lessons that are 3 hours each. The first 10 lessons cover HTML/CSS/JS Basics and the following 10 cover how to build websites in concert. 
 
 ###Before The Course Responsibilities
  
-We __highly recommend__ you begin preparing your lessons before the course starts. You should start prepping to teach the materials 4 - 6 weeks prior to course launch. A good bench mark is to prepare the first 5 - 6 lessons before the course begins. 
+We __highly recommend__ you begin preparing your lessons before the course starts. You should start prepping to teach the materials 4 - 6 weeks prior to course launch. A good benchmark is to prepare the first 5 - 6 lessons before the course begins. 
 
 During these preparation weeks you should: 
 
