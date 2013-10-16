@@ -22,7 +22,7 @@ Instructors current role.
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##What Tag Is It?
 
 ---
