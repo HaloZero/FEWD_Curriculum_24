@@ -32,3 +32,10 @@ console.log("Question 3: " + q3);
  */
 var q4 = q1[q1.length-1];
 console.log("Question 4: " + q4);
+
+/**
+ * Question 5
+ *  Using the variables from questions 2 and 4, write code that would change the src of the first image on a web page to the src stored in q2 and the last image on a web page to the src stored in q4. For extra credit, troubleshoot why the images still don't show up.
+ */
+$("img").eq(0).attr("src",q2);
+$("img").eq(1).attr("src",q4); 

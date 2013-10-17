@@ -43,7 +43,7 @@
 
 *	Demo the site to students and ask them to recreate the memory game.
 
-*	Students will have the entire class to build the memory game. The goal of this exercise is to divide and conquer. Students should write pseudo code first and think through each functionality. 
+*	Students will have the entire class to build the memory game. The goal of this exercise is to divide and conquer. As always, before writing any JS students should have all functionality written out in pseudo code. Some students get lazy and skip the pseudo code. DO NOT LET THEM DO THIS. It will only cause you pain. 
 
 *	They should start by completing the HTML for the game (game container, game cards, reset buttons, etc). Time box this section to 20 min.
 
@@ -58,9 +58,10 @@
 
 __BONUS__ For students who would like a more challenging exercise, ask them to complete the following.
 
-*	Use the web to find a function to shuffle the cards. Should you have more advanced students, you can show them how to make a simple jQuery extensions that will shuffle any matched elements for a jQuery selector.
+*	Use the web to find a function to shuffle the cards. Should you have more advanced students, you can show them how to make a simple jQuery extension that will shuffle any matched elements for a jQuery selector.
 	*	For shuffling, students should find a shuffle function online and use it
-	*	If you have advanced students, feel free to show them how to write a jQuery extension source of shufflecards: http://stackoverflow.com/questions/2450954/how-to-randomize-a-javascript-array
+	*	If you have advanced students, feel free to show them how to write a jQuery extension
+	*	source of solution's shufflecards: http://stackoverflow.com/questions/2450954/how-to-randomize-a-javascript-array
 
 *	Track number of moves it took to match all cards
 
