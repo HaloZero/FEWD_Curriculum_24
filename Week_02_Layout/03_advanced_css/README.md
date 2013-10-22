@@ -28,7 +28,7 @@
 
 ###[Homework](../Homework/)
 
-*	Complete the [fashion blog](solution/Fashion_Blog.png) site for homework. 
+*	Complete the [fashion blog](starter_code/Fashion_Blog.png) site for homework. 
 
 ---
 
