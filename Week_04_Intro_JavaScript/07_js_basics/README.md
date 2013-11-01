@@ -23,12 +23,13 @@
 | 45 min | JS Basics | [JS Basics]() |  Detailed breakdown of what was read in lesson 6. We also change color switcher so that we are keeping with separation of concerns best practices.|
 | 45 min | Variables | [Score Keeper]() | Intro to variables and data types |
 | 45 min | Conditionals | [Compare That]() |  |
-| 45 min | Lab Time | ???? | MISSING ACTIVITY FOR THIS WEEK |
+| 45 min | Lab Time | [Temperature Converter]() | Students build a simple application with HTML/CSS and JS. It should take a temp and convert it to celsius or fahrenheit.|
 
 
 
 ###[Homework](../Homework/)
 
+*	Complete Rock Paper Scissors Game
 
 
 ---
@@ -44,7 +45,7 @@
 | ------------- |:-------------|
 | __Topics__ | getElementById, click event, adding a class, separation of concerns | 
 | __Description__| This is a more detailed explanation of JavaScript then the previous class. |   
-|__Activity Type__| Code Along | 
+| __Activity Type__| Code Along | 
  
  
 ####Instructional Design Notes
@@ -109,28 +110,25 @@
 
 
 
+##Temp Converter
 
 
-
-
-##[Temp Converter](http://codepen.io/nevan/pen/BkdqI)
-
-To come in next 2 weeks. Still debating what is the best exercise for this lesson.
-
-__IDEA__: 
-
-We could have a text box, where users enter a degree, click Celsius or Fahrenheit amd the temp converts and the background changes to represent that temperature. If it is hot, a sunny background. If it's cold, a winter background.
-
-####Time: 00 min
+####Time: 45 min
 
 | | |
 | ------------- |:-------------|
-| __Topics__ |  | 
-| __Description__|  |    
-|__Activity Type__| | 
+| __Topics__ | variables, conditionals, DOM manipulation | 
+| __Description__| Students work on this open ended  |    
+| __Activity Type__|  Groups and then pairs| 
 
 
 ####Instructional Design Notes 
+
+*	This exercise is fairly open. The HTML/CSS is up to students. There is no HTML or CSS starter code. 
+
+*	To keep things simple, we want students to simply build an application using HTML/CSS and JS that converts a temperature from Fahrenheit to Celsius. 
+
+*	There is no answer key for this exercise (coming soon).
 
 [![slides](../../img/icons/slides.png)](slides.md)
 

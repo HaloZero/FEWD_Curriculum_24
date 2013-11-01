@@ -42,9 +42,16 @@
  
 ####Instructional Design Notes
 
-*	Ask students to work in groups to plan and determine where they should start. They should follow the same process you taught them. 
-
 *	This is an ambitious site to build in week 3. The goal is to encourage students to divide and conquer. We want to teach them how to look at a png file determine the sections that are needed and then code. 
 
+*	Ask groups to plan and determine where they should start. They should follow the same process you taught them. 
+
+*	For the advanced students, there are 2 additional pages (developers & designers) they can code.
+
+__Please note that students will need to Google:__
+
+*	background-image
+*	```<del>``` ```<ins>```
+*	overflow
 
 ---

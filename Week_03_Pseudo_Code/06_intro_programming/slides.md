@@ -30,7 +30,7 @@ A __program__ is a set of instructions that you write to tell a computer what to
 
 ---
 
-##What is Programming
+##What Is Programming
 
 __Programming__ is the task of writing those instructions in a language that the computer can understand.
 
@@ -38,8 +38,6 @@ __Programming__ is the task of writing those instructions in a language that the
 ---
 
 ##Becoming A Programmer
-
-![lightbulb](../img/lightbulb.png)
 
 It isn't about the programming language. It is about changing how you think.
 
@@ -77,7 +75,7 @@ This semester we will learn what these keywords and structures are and how they 
 
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Thermo Stat
+##Thermostat
 
 ---
 
