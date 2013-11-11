@@ -28,7 +28,7 @@
 | 20 min |Intro To Front-End Web Development| | Intro to web development and responsibilities of front-end web developers. From HTML to HTML5 |
 | 10 min | Navigating Your Computer | | __Optional__. Recently, we've seen a need to explain how and where to save files on the computer and how to open files using Sublime text. Some students don't know how to navigate their computer.|
 | 60 min |HTML Tags & Using Sublime| [GA Press Release]()| Basic site to demonstrate html files and tags. This is another opportunity to show students how to use sublime text. This will make sure everyone is up to speed and ready to move forward.|
-| 30 min |Lab Time | [Cookies Recipe]()<br> [Resume]() | Students add tags to a Cookie recipe and start to "markup", their resume. |
+| 30 min |Lab Time | [Cookies Recipe]()<br> [Resume]() | Students add tags to a Cookie recipe and start to "markup" their resume. |
 
 
 ###[Homework](../Homework/)
