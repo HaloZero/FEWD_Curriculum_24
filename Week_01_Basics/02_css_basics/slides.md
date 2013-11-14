@@ -99,7 +99,7 @@ The downside is that the path only works if the project is stored to a proper lo
 ##Html Basics - Images
 Full URL
 
-		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">```
+		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
 		
 <aside class="notes">
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
