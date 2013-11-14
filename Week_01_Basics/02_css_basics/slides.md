@@ -326,7 +326,7 @@ Colors can be specified in CSS in a variety of ways:
 
 These are used less frequently, but are handy for basic colors like `black` and `white`. There are several
 
-See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802(v=vs.85).aspx) for more:
+See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802.aspx) for more
 
 ---
 
