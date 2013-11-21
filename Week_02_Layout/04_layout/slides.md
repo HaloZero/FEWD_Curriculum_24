@@ -62,9 +62,13 @@ When should you use them?
 
 How to __select__ classes in CSS
 
-```.className```
+```
+.className
+```
 
-```#idName```
+```
+#idName
+```
 
 ---
 
