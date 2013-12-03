@@ -47,9 +47,9 @@
 
 *	The idea of programming is foreign to students. This class exercise is to introduce students to what it means to program.
 
-*	White board and walk students through wirting a program for a thermostat. Highlight variables, conditionals, loops. Again the purpose of this exercises is to introduce what it means to program. 
+*	White board and walk students through writing a program for that controls a thermostat. Highlight variables, conditionals, and loops. Again, the purpose of this exercise is to introduce students to what it means to program. 
 
-*	We've chosen a thermostat, feel free to change if you like. 
+*	We've chosen a thermostat; feel free to change if you like. 
 
 
 Sample Pseudo Code For A Thermostat.
@@ -100,11 +100,11 @@ repeat forever,
 
 *	We want to teach students how to read code. This is based on the assumption that when you are a child you learn to speak and read before you learn to write. We learned to speak JS with the discussion, videos, and pseudo code activities. Now lets teach students how to read. Specifically we want students to understand control flow. 
 
-*	This code is meant to be demoed in code pen. We are not focused on syntax, just the flow of the program. This example uses very descriptive function names so that it is easy to follow. By using code pen students can see the code and interact with the output and start to build a mental model about how JS code interacts with HTML and CSS. 
-	*	For example students can click on a color see the background change, view the code to begin to infer how it all works together. 
+*	This code is meant to be demoed in Codepen. We are not focused on syntax, just the flow of the program. This example uses very descriptive function names so that it is easy to follow. By using Codepen students can see the code and interact with the output and start to build a mental model about how JS code interacts with HTML and CSS. 
+	*	For example, in this exercise students can click on a color, see the background change, and then view the code to begin to infer how it all works together. 
 
-*	The instructors job during this walk through is to highlight the flow of control in the program without using heavy jargon. Here is an example:
-	*	JS  "listens / observes" for when the user clicks on a list item with the id "x" (.on click and select element by id).
+*	The instructor's job during this walk through is to highlight the flow of control in the program without using heavy jargon. Here is an example:
+	*	JS  "listens / observes" for when the user clicks on a list item with the id "x" (.onclick and select element by id).
 	*	It then calls this block of code. (functions)
 	*	This block tells JavaScript to, "change the background color to..."
 	*	Now ask questions to check for understanding (e.g. What would I do if I wanted to change the yellow button to red and change the background to red when its clicked)? 
@@ -152,7 +152,7 @@ Materials: Post its.
 
 *	We are going to ask students to read code and make small changes
 
-*	Share the code pen link. 
+*	Share the Codepen link. 
 
 *	The yellow button changes the bulb to purple and the green light does not work. Students are to change the code so that the traffic light works correctly.  	
 
