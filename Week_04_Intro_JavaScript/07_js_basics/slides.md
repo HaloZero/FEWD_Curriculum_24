@@ -23,7 +23,7 @@ Instructors current role.
 __Syntax:__ Spelling and grammar rules of a programming language. 
 
 
-<aside class"notes>
+<aside class="notes">
 Like with any language, there are formal rules around how to write it. This is the syntax.
 
 </aside>
@@ -39,7 +39,7 @@ Like with any language, there are formal rules around how to write it. This is t
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](../img/icons/code_along.png)
 ##JS Basics
 
 ---
@@ -49,7 +49,7 @@ Like with any language, there are formal rules around how to write it. This is t
 
 What are variables?
 
-<aside class"notes>
+<aside class="notes">
 
 
 </aside>
@@ -78,16 +78,21 @@ What are variables?
 
 ##Variables Declaration
 
-Declaration: ```var age;```Assignment: ```age = 21;```Both at the same time ```var age = 21;```
+Declaration: ```var age;```
+
+Assignment: ```age = 21;```
+
+Both at the same time: ```var age = 21;```
 
 ---
 
 ##Variable Re-Assignment
 
 ```var name = "Jo";```
+
 ```name = Amir;```
 
-<aside class"notes>
+<aside class="notes">
 
 name is now Amir.
 
@@ -97,7 +102,9 @@ name is now Amir.
 
 ##Variable Conventions
 
-*	Variables start with a lower case letter*	If they contain multiple words, subsequent words start with an upper case letter.
+*	Variables start with a lower case letter
+
+*	If they contain multiple words, subsequent words start with an upper case letter.
 
 		var numberOfStudents = 10;
 
@@ -108,7 +115,7 @@ name is now Amir.
 What can you store in a variables?
 
 
-<aside class"notes>
+<aside class="notes">
 
 </aside>
 
@@ -117,78 +124,113 @@ What can you store in a variables?
 
 The types of different values we support include:
 	
-*	__String__ numbers
-*	__int__, __float__ text
+*	__String__ text
+*	__int__, __float__ numbers
 *	__Boolean__ true or false
 
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](../img/icons/code_along.png)
 ##Score Keeper
 
 ---
 
 ##Strings
 
-*	Stores textual information*	Litteral string is surrounded by quotes```"How is the weather today?"``````'Warm'```
+*	Stores textual information
+*	String literal is surrounded by quotes
+
+```"How is the weather today?"```
+
+```'Warm'```
 
 ---
 
 ##Strings
 
-Double vs single quoted strings:'They "purchased" it'"It's a beautiful day"
+Double vs single quoted strings:
+
+'They "purchased" it'
+
+"It's a beautiful day"
+
 ---
 
 ##Strings
-Escaping"They \"purchased\" it"'It\'s a beautiful day'
+Escaping
+"They \"purchased\" it"
+
+'It\'s a beautiful day'
 
 ---
 
 ##Conversion: String To Number
 
 ```
-var intString = "4";var intNumber = parseInt(intString, 10);var floatString = "3.14159";var floatNumber = parseFloat(floatString);```<aside class="Notes">
+var intString = "4";
+var intNumber = parseInt(intString, 10);
+var floatString = "3.14159";
+var floatNumber = parseFloat(floatString);
+```
+
+<aside class="notes">
 Why would you need to convert datatypes?
-</aside>
+</aside>
 
 ---
 
 ##Conversion: Number To String
 
 ```
-var number = 4;number.toString(); => "4"```
+var number = 4;
+number.toString(); => "4"
+```
 
 __OR__
-```number + ""; => "4"```<aside class="Notes">
+```
+number + ""; => "4"
+```
+
+<aside class="notes">
 Why would you need to convert datatypes?
-</aside>
+</aside>
 
 ---
 
 ##Numbers
 
-Represent numerical dataint:         42float:      3.14159265
+Represent numerical data
+
+int:         42
+
+float:      3.14159265
 
 ---
 
 ##Numbers
 
-Signedint:         +6float:      -8.2Can perform arithmetic on number data types
+Signed
+
+int:         +6
+
+float:      -8.2
+
+Can perform arithmetic on number data types
 
 ---
 
 
 ##Arithmetic In JavaScript
 
-![](../../img/unit_1/arithmetic.jpg)
+![](../img/unit_1/arithmetic.jpg)
 
 ---
 
 
 ##Conditionals
 
-![](../../img/unit_1/cfDiagram.png)
+![](../img/unit_1/cfDiagram.png)
 
 ---
 
@@ -200,7 +242,7 @@ If you are greater than 18
 you are an adult
 
 	if (age > 18){
-		puts "You are an adult"
+		document.write("You are an adult");
 	}
 
 ---
@@ -209,22 +251,28 @@ you are an adult
 
 ##Comparisons - Equality
 
-Are two things equal?```
-10 === 10 //true10 === 5 //false“hi” === “hi” //true```
+Are two things equal?
+
+```
+10 === 10 //true
+10 === 5 //false
+"hi" === "hi" //true
+```
 ---
 
 
 ##Logical Operators
 
-![](../../img/unit_1/logical_operators.png)
+![](../img/unit_1/logical_operators.png)
 
 ---
 
 ##Conditional Syntax
 
 ```
-if(condition is true) {   
-	//Do cool stuff }
+if(condition is true) {  
+	//Do cool stuff
+}
 ```
 
 ---
@@ -244,7 +292,14 @@ if(condition is true) { 
 ##Conditional Syntax
 
 ```
-	var topic = "JS";	if (topic == "JS") {		console.log("You're learning JavaScript");	} else if(topic == "JavaScript") {		console.log("You're still learning JavaScript");	} else {	console.log("You're learning something else");}
+	var topic = "JS";
+	if (topic == "JS") {
+		console.log("You're learning JavaScript");
+	} else if(topic == "JavaScript") {
+		console.log("You're still learning JavaScript");
+	} else {
+	console.log("You're learning something else");
+}
 ```
 
 ---
@@ -252,7 +307,9 @@ if(condition is true) { 
 ##Multiple Conditions
 
 ```
-if (name == “GA”  && password == “YellowPencil”){	//Allow access to internet}
+if (name == "GA"  && password == "YellowPencil"){
+	//Allow access to internet
+}
 ```
 
 ---
@@ -261,34 +318,36 @@ if (name == “GA”  && password == “YellowPencil”){	//Allow access to int
 ##The Truth Table
 
 ```
-if (name == “GA”  && password == “YellowPencil”){	//Allow access to internet}
+if (name == "GA"  && password == "YellowPencil"){
+	//Allow access to internet
+}
 ```
 
 ---
 
 ##The Truth Table
 
-![](../../img/unit_1/and_table.png)
+![](../img/unit_1/and_table.png)
 
 ---
 
 ##The Truth Table
 
 ```
-if (day == “Tuesday”  || day == “Thursday”){	//We have class today}
+if (day == "Tuesday"  || day == "Thursday"){
+	//We have class today
+}
 ```
 
 ---
 
 ##The Truth Table
 
-![](../../img/unit_1/or_table.png)
+![](../img/unit_1/or_table.png)
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 ##Temp Converter
 
 ---
-
-
