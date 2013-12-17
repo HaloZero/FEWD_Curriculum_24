@@ -140,7 +140,7 @@ What if I would like to know how long my array is (how many elements)?
 Allows you to run code using each element from the array as a value
 Syntax:
 
-	Array.ForEach
+	Array.forEach
 
 
 
