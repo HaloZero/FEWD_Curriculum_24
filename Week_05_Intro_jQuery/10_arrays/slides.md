@@ -64,7 +64,7 @@ var myArr = [ ];
 myArr = ['Hello', 54.3, true];
 
 *	Arrays are filled with elements: i.e. myArr3 = [element, anotherElement];
-*	Elements can be strings, numbers, or booleans.
+*	Elements can contain strings, numbers, booleans, and more.
 	
 
 ---
@@ -118,14 +118,6 @@ We can overwrite all the elements of an array simply by giving the array new val
 	myArr = fruits;
 	
 	console.log(myArr); //prints Apples, Oranges, Pears, Bananas
-
----
-
-##Array Length
-
-What if I would like to know how long my array is (how many elements)?
-	
-	console.log(myArr.length); //prints 4
 
 ---
 
