@@ -61,14 +61,12 @@ The only things a computer knows are the things we tell it.
 
 Pseudocode is the process of writing a program without using the syntax of a programming language.
 
-<aside class="notes"> 
+Note:
 We will talk about algorithms later.
 
 Pseudocode is a mixture of natural language and high-level programming constructs. For example,
 If the door is closed and I want to exit the room, then open the door
 This semester we will learn what these keywords and structures are and how they are used to create a program…
-
-</aside>
 
 ---
 

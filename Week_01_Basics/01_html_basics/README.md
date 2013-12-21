@@ -58,7 +58,6 @@ Student facing homework document can be found in the Homework folder (link above
 
 *	See a [suggestion](solution/ga_press_release/instr_notes.md) of how to implement this code along from our curriculum fellow.
 
-
 *	Attach meaning to tags and show students how to approach content. 
 
 *	This introductory exercise is meant to highlight HTML tag patterns so students can look up other tags. 
@@ -67,7 +66,6 @@ Pattern examples:
 
 *	It starts with an opening tag and ends with a closing tag.
 	*	__Exception__: Only tags which don't need to close are those which contain no nested content? That is, img, input, br, hr, etc (nested content could include text and text according to JS is a node in and of itself).
-
 
 *	Some tags require an attribute (we will cover img tags next class) 
 

@@ -21,10 +21,6 @@ How to make a website responsive.
 *	Size fonts in ems
 *	Identify columns that can be stacked
 
-<aside class="notes">
-
-</aside>
-
 ---
 
 
@@ -40,10 +36,6 @@ How to make a website responsive.
 *	Identify extra styling
 	*	Do my columns need a border if they’re stacked?
 
-
-<aside class="notes">
-
-</aside>
 
 ---
 

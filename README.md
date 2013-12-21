@@ -59,7 +59,7 @@ We will provide a __class page__ that you can host on our Githubfor organization
 
 *	We suggest using reveal.js with external markdown.
 
-*	The ```<aside>``` tag will not appear in the presented deck. However, when you share the rendered markdown, students will see the notes. This is a great place to put presenter notes and additional information you would like students to read outside of class.
+*	Any text following the line `Note:` in a given slide will not appear in the presented deck. However, when you share the rendered markdown, students will see the notes. This is a great place to put presenter notes and additional information you would like students to read outside of class.
 
 *	See [here](https://github.com/hakimel/reveal.js) for further documentation about Reveal.js. 
 
