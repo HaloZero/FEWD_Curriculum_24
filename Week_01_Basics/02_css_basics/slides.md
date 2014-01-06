@@ -99,7 +99,7 @@ The downside is that the path only works if the project is stored to a proper lo
 ##Html Basics - Images
 Full URL
 
-		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">```
+		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
 		
 <aside class="notes">
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
@@ -326,7 +326,7 @@ Colors can be specified in CSS in a variety of ways:
 
 These are used less frequently, but are handy for basic colors like `black` and `white`. There are several
 
-See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802(v=vs.85).aspx) for more:
+See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802.aspx) for more
 
 ---
 

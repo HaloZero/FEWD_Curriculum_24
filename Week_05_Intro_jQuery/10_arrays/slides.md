@@ -64,7 +64,7 @@ var myArr = [ ];
 myArr = ['Hello', 54.3, true];
 
 *	Arrays are filled with elements: i.e. myArr3 = [element, anotherElement];
-*	Elements can be strings, numbers, or booleans.
+*	Elements can contain strings, numbers, booleans, and more.
 	
 
 ---
@@ -129,14 +129,6 @@ What if I would like to know how long my array is (how many elements)?
 
 ---
 
-##Array Length
-
-What if I would like to know how long my array is (how many elements)?
-	
-	console.log(myArr.length); //prints 4
-
----
-
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Arrays
 
@@ -148,7 +140,7 @@ What if I would like to know how long my array is (how many elements)?
 Allows you to run code using each element from the array as a value
 Syntax:
 
-	Array.ForEach
+	Array.forEach
 
 
 

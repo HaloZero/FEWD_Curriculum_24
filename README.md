@@ -50,7 +50,7 @@ We will provide a __class page__ that you can host on our Githubfor organization
 
 5.	__Customize the deck before sharing with the class.__ The slides.md files we provide is a base. You need to update it and make sure it fits the story you want to tell. If you prefer not to use slides, use the markdown file to help you plan the story you will tell this class.
 
-6.	If not using the GA suggested in class labs, create your own and make sure it hits the same topics and learning objectives for that lesson. Please share your changes or new exercises with the curriculum team. We want to add build the best curriculum, and that can only happen with your help.
+6.	If not using the GA suggested in class labs, create your own and make sure it hits the same topics and learning objectives for that lesson. Please share your changes or new exercises with the curriculum team. We want to build the best curriculum and that can only happen with your help.
 
 7.	Practice using reveal.js. It can be tricky to get the hang of the workflow. 
 

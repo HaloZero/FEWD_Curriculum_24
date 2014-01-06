@@ -9,7 +9,7 @@ function nextImage(){
 }
 function changeImage(){
 	$("#image-to-vote-on").attr("src",images[i]);
-	$("#your-vote>option").removeAttr("selected");
+	$("#your-vote>option").prop("selected",false);
 }
 function calculateVotes(){
 	var ave=0;
