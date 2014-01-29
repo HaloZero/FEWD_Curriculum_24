@@ -75,12 +75,12 @@ footer {
 /* ADDITIONAL STYLES                   
 /*******************************************/
 @-webkit-keyframes falling-egg{
-     /*What style will make the egg start at the top of the game container?*/
-
-     /*What style will make the egg appear at the bottom of the container? Hint: Use Chrome inspector and play around with an egg*/;
+     from{margin-top:0;}
+     to{margin-top:470px;}
 }
 @keyframes falling-egg{
-    /*The same code for the webkit keyframes goes here*/
+     from{margin-top:0;}
+     to{margin-top:470px;}
 }
 #instructions{
      margin-top:50px;
@@ -125,8 +125,7 @@ footer {
      float: left;
      width:10px;
      height:30px;
-     /*When the user fails to catch the egg, we add the break-egg class (see below). 
-     Put some CSS here that will make the egg "transition" to the broken state.*/
+     -webkit-transition:all 250ms;
 }
 .egg-left{
      border-radius: 10px 0 0 10px/25px 0 0 10px;
@@ -134,25 +133,25 @@ footer {
 .egg-right{
      border-radius: 0 10px 10px 0/0 25px 10px 0;
 }
-.break-egg.egg-left{
+.break-egg:first-child{
      -webkit-transform:rotateZ(-90deg);
      margin:7px 0 0 -10px;
 }
-.break-egg.egg-right{
+.break-egg:nth-child(2){
      -webkit-transform:rotateZ(90deg);
      margin:7px 0 0 10px;
 }
 .slow-falling-egg,.medium-falling-egg,.fast-falling-egg{
-     -webkit-animation-name: /*What is the name of our animation?*/;
-     -webkit-animation-iteration-count: /*How many times do we want the animation to happen per egg?*/;
-     -webkit-animation-duration: /*How long should the slow falling egg take to reach the bottom?*/;
+     -webkit-animation-name: falling-egg;
+     -webkit-animation-iteration-count: 1;
+     -webkit-animation-duration: 3000ms;
      -webkit-animation-timing-function: linear;
      -webkit-animation-play-state: running;
      -webkit-animation-fill-mode: forwards;
 }
 .medium-falling-egg{
-     -webkit-animation-duration: /*How long should the medium speed egg take to reach the bottom?*/;
+     -webkit-animation-duration: 2000ms;
 }
 .fast-falling-egg{
-     -webkit-animation-duration: /*How long should the fast falling egg take to reach the bottom?*/;
+     -webkit-animation-duration: 1000ms;
 }
