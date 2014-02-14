@@ -23,10 +23,9 @@ Instructors current role.
 __Syntax:__ Spelling and grammar rules of a programming language. 
 
 
-<aside class="notes">
+Note:
 Like with any language, there are formal rules around how to write it. This is the syntax.
 
-</aside>
 
 ---
 
@@ -48,11 +47,6 @@ Like with any language, there are formal rules around how to write it. This is t
 ##Variables
 
 What are variables?
-
-<aside class="notes">
-
-
-</aside>
 
 ---
 
@@ -92,11 +86,10 @@ Both at the same time: ```var age = 21;```
 
 ```name = Amir;```
 
-<aside class="notes">
+Note:
 
 name is now Amir.
 
-</aside>
 
 ---
 
@@ -115,10 +108,7 @@ name is now Amir.
 What can you store in a variables?
 
 
-<aside class="notes">
-
-</aside>
-
+Note:
 
 ##Data Types
 
@@ -174,9 +164,8 @@ var floatString = "3.14159";
 var floatNumber = parseFloat(floatString);
 ```
 
-<aside class="notes">
+Note:
 Why would you need to convert datatypes?
-</aside>
 
 ---
 
@@ -192,9 +181,8 @@ __OR__
 number + ""; => "4"
 ```
 
-<aside class="notes">
+Note:
 Why would you need to convert datatypes?
-</aside>
 
 ---
 

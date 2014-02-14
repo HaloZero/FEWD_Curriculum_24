@@ -70,12 +70,12 @@ Relative Path
 	
 ![Parent Folder Structure](../../img/unit_1/folder_structure_parentDirectory.png)
 
-<aside class="notes">
+Note:
 
 * Given this folder structure the same image would be ```<img src="../images/logo.png">``
 * 
 Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
-</aside>
+
 
 ---
 
@@ -85,13 +85,12 @@ Absolute Path
 
 ```<img src="/images/logo.png">```
 
-<aside class="notes">
-	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
-	
+Note:
+Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
+
 The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
-	
+
 The downside is that the path only works if the project is stored to a proper location for serving.
-</aside>
 
 ---
 
@@ -101,9 +100,9 @@ Full URL
 
 		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
 		
-<aside class="notes">
+Note:
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
-</aside>
+
 
 ---
 
@@ -113,7 +112,7 @@ alt attribute
 
 	<img src="puppy.jpg" alt="My cute puppy">
 
-<aside class="notes">
+Note:
 
 A piece of text to be used in lieu of the image when the image is unavailable
 
@@ -128,7 +127,6 @@ Reasons an image may not load:
 *	The user is running a text-based browser such as an older phone with a WAP-style browser, or a non-graphical browser like lynx.
 
 *	The user is using a screen reader because she has low vision, which will read the `alt` text aloud or present it through a braille reader.
-</aside>
 
 ---
 
@@ -142,9 +140,9 @@ There are three main image file formats:
 
 ####.png
 
-<aside class="notes">
+Note:
 Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
-</aside>
+
 
 ---
 
@@ -161,9 +159,8 @@ Supports transparency and semi-transparency, great for logos, icons, and repeati
 
 ####.jpeg
 
-<aside class="notes">
+Note:
 No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
-</aside>
 
 ---
 
@@ -189,9 +186,8 @@ Where does CSS go?
 * In a separate file
 
 
-<aside class="notes">
+Note:
 CSS should go in a separate file. We're going to start by placing them in the head for convenience and to learn the syntax. We'll show inline styles at the end, just to demonstrate.
-</aside>
 
 ---
 
@@ -203,11 +199,10 @@ Its best practice to put CSS in its own file and link to it from the `<head>`.
 
 ```<link rel="stylesheet" href="style.css">```
 	
-<aside class="notes>
+Note:
 "The `link` tag needs two attributes: `rel="stylesheet"` and an `href` attribute.
 
 The `href` attribute value works very similarly to linking to an image, or to another page.
-</aside>
 
 ---
 
@@ -261,11 +256,10 @@ This example has two declarations. Here's the first:
 color: red;
 ```
 
-<aside class="notes">
+Note:
 Every declaration is a **property** followed by a **value**, separated by a colon, ending in a semicolon.
 
 In this declaration, we are setting the `color` **property** to the **value** `red`.
-</aside>
 
 ---
 
@@ -278,7 +272,7 @@ Let's look at the second declaration:
 font-weight: bold;
 ```
 
-<aside class="notes">
+Note:
 
 What style **property** are we specifying here?
 
@@ -286,7 +280,6 @@ What **value** are we setting that **property** to?
 
 Try writing a new set of styles for another element, like an `h1`.
 
-</aside>
 
 ---
 
@@ -294,11 +287,10 @@ Try writing a new set of styles for another element, like an `h1`.
 
 Why might we want to link to a separate CSS file?
 
-<aside class="notes">
+Note:
 
 Discuss as a class
 
-</aside>
 
 ---
 
@@ -309,7 +301,7 @@ Colors can be specified in CSS in a variety of ways:
 
 ![](../../img/unit_1/color.png)
 
-<aside class="notes">
+Note:
 * keyword
 * hex codes
 * rgb
@@ -317,7 +309,6 @@ Colors can be specified in CSS in a variety of ways:
 * rgba
 * hsla
 
-</aside>
 
 ---
 
@@ -335,12 +326,11 @@ See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802.aspx) for more
 
 ![Hex Color explanation](../../img/unit_1/hex_colors.png)
 
-<aside class="notes">
+Note:
 "Hex" values are so-called because they use hexadecimal, or base-16, to describe the color values for red, green, and blue. Each of the 3 color values is expressed by two hexadecimal digits, from `00` (no color) to `FF` (full color), and are written in the order red, green, then blue, after an initial `#` sign.
 
 Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#FFFFFF` (white) can be expressed more succinctly as `#FFF`, and `#000000` (black) can be expressed as `#000`. `#FA6198`, however, cannot be abbreviated without altering the color.
 
-</aside>
 
 ---
 
@@ -354,13 +344,12 @@ Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#F
 *	Each value can range from 0 to 255, which expresses the same number of color steps as 00 to FF in base-16.
 
 
-<aside class="notes">
+Note:
 FF in base-16 is equivalent to 255 in base-10.
 
 In RGB, `rgb(0,0,0)` is black, `rgb(255,255,255)` is white, `rgb(255,0,0)` is red, etc.
 
 White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do just as well.
-</aside>
 
 ---
 
@@ -374,13 +363,12 @@ White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do jus
 
 ![](../../img/unit_1/rgba_color.png)
 
-<aside class="notes">
+Note:
 0 is completely transparent, and 1 being solid. 0.5 or .5 is 50% opacity.
 
 Thus, __rgba(0,0,0,.25)__ is black at 25% opacity and __rgba(255, 255, 255, 0.8)__ is white at 80% opacity.
 
 The alpha value can be in decimal form but cannot use a percentage. When a decimal is used, the leading zero is optional.
-</aside>
 
 ---
 
@@ -394,7 +382,7 @@ The alpha value can be in decimal form but cannot use a percentage. When a decim
 ####HSLa
 *	As with RGBa, HSLa is exactly like HSL for the first 3 values, but takes a 4th alpha-channel value.
 
-<aside class="notes">
+Note:
 **Hue** is expressed as a degree angle measure, with red being at 0, green at 120, and blue at 240. Note that the degree unit is implied, and that the angle wraps around, so 360 also refers to red, and -120 is the same as 240 (blue).
 
 **Saturation** is expressed as a percentage, with 100% being a fully saturated color, and 0% being a shade of gray (no hue).
@@ -404,7 +392,6 @@ The alpha value can be in decimal form but cannot use a percentage. When a decim
 As an example, red is ```hsl(0, 100%, 50%)```, which is equivalent to ```#FF0000```.
 
 Note that changing the opacity allows whatever colors are "behind" an element to shine through, which can alter the visible color significantly, especially at lower opacities.
-</aside>
 
 ---
 

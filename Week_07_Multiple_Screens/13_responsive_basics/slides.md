@@ -84,11 +84,6 @@ Checkout these __Responsive__ Sites
 
 *	Usually 960px or 980px
 
-
-<aside class="notes">
-
-</aside>
-
 ---
 
 ##Responsive Layout
@@ -104,11 +99,6 @@ Checkout these __Responsive__ Sites
 *	Elastic
 
 *	Sized in ems
-
-
-<aside class="notes">
-
-</aside>
 
 ---
 
@@ -158,11 +148,6 @@ For iPad
 
 Separate multiple clauses with “and”
 
-
-<aside class="notes">
-
-</aside>
-
 ---
 
 ##Mobile Display
@@ -204,11 +189,6 @@ Large: 992px+
 
 If I put the media query before .box{float:left;} will this work as expected?
 
-
-<aside class="notes">
-
-</aside>
-
 ---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
@@ -221,9 +201,5 @@ If I put the media query before .box{float:left;} will this work as expected?
 
 Grid layouts
 Transition (make media query changes smoother)
-
-<aside class="notes">
-
-</aside>
 
 ---

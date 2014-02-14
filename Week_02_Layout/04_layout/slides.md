@@ -89,9 +89,8 @@ Float is a CSS positioning property, used to layout a web page.
 
 ![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
 
-<aside class="notes">
+Note:
 Image from Chris Coyier's CSS-Tricks
-</aside>
 
 ---
 

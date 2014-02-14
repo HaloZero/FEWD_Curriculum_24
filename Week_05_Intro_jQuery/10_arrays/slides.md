@@ -154,11 +154,10 @@ Syntax:
 		console.log(element,index);
 	});
 
-<aside class="notes">
+Note:
 Element is the item from the array
 Index is the item’s position in the array
 As always, code we want to execute goes between curly braces
-</aside>
 
 ---
 

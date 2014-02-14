@@ -85,15 +85,13 @@ In Action
 	*	Placeholder
 	*	Value
 
-<aside class="notes">
-
-Complete Spec: <a href="http://www.w3schools.com/tags/tag_input.asp"
+Note:
+Complete Spec: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input>
 
 *	Gotchas
 	*	The font-family for an input is not inherited!!!
 	*	This can lead to funny sizing issues on Macs vs. PCs where the default font is not the same
 
-</aside>
 
 ---
 
@@ -163,10 +161,9 @@ To tie the two together choose one of these methods:
 
 ```<label for="yourName">Name</label><input type="text" name=“yourName” id=“yourName”>```
 
-<aside class="notes">
+Note:
 Usability
 Clicking the label text in either case places the focus in the input field (great for radio buttons)
-</aside>
 
 ---
 

@@ -84,10 +84,8 @@ The Doctype tells you if the page is HTML5 ready.
 
 ![HTML History](../../img/unit_1/Timeline_of_web_technologies.jpg)
 
-<aside class="notes">
+Note:
 image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
-
-</aside>
 
 ---
 
