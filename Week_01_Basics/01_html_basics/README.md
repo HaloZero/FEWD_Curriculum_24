@@ -96,7 +96,7 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 
 
 ####Lab Time
-Time: 50min
+__Time: 50min__
 
 Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
  
