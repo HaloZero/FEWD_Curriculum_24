@@ -17,7 +17,7 @@
 
 | Time        | Section| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 10 min | HTML Tag & CSS Selectors Review | N/A| Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
+| 10 min | [HTML Tag & CSS Selectors Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/01_html_basics/README.md#html-tags--css-selectors-review) | N/A| Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
 | 60 min | Adding Structure | [GA Press Release]()| Basic site to review .html files and tags. Another great opportunity to show students how to use sublime text, and get everyone up to speed and ready to move forward.|
 | 60 min |External Style Sheets|[GA Press Release]()| Demonstrate how to create an external style sheet using the press release. Review CSS selectors by styling the press release as you see fit.|
 | 50 min |Lab Time | [Cookies Recipe]()| Students add tags to a Cookie recipe, and style as they see fit.|
