@@ -32,13 +32,13 @@ Share assignment folder (link above).
 
 ---
 
-###LESSON PLANNING NOTES
+###Lesson Planning Notes
 
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
 
-###HTML Tags & CSS Selectors Review
-####Time : 10min
+####HTML Tags & CSS Selectors Review
+Time : 10min
 
  *	This section is a refresher for students. As pre-work we asked students to complete Project 1: ["Anna's Website"](https://dash.generalassemb.ly/projects/annas-website-1) in Dash. Review tag syntax (tags have opening and closing brackets etc.) Review CSS syntax. __NOTES: Students were only introduced to element selectors.__
  
@@ -56,15 +56,15 @@ Suggestions for pattern examples:
 ===
  
  
-###Adding Structure
-####Time : 60min
+####Adding Structure
+Time : 60min
 
 The goal of this section is to explain what it means to add "structure" to a document with HTML, and how to approach content. 
 
 *	Thanks to Dash, students should be familiar with the rules of HTML tags. Adding HTML tags are generally easy for students to grasp. However, students get confused when it comes to knowing which tag to apply to content. To a human reader like yourself, text has meaning, we can read with an understanding of the text and express that in code. 
 
 
-####GA Press Release
+#####GA Press Release
 
 | Code Along | [GA Solution File](solution/ga_press_release)|
 | ------------- |:-------------|
@@ -78,8 +78,8 @@ The goal of this section is to explain what it means to add "structure" to a doc
 
 ===
 
-###External Style Sheets
-###Time: 60min
+####External Style Sheets
+Time: 60min
 
 This can be used to introduce/review very basic aspects of CSS to students, especially as their first look at "styling a page" with external CSS. I recommend sticking to the following guidelines:
 
@@ -90,7 +90,7 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 *	Keep color simple. We've included some notes about colors and fonts in the slides. If you don't have time to explain in detail, you can ask students to read the notes for homework.
   
 
-#### GA Press Release Styled 
+#####GA Press Release Styled 
 
 |Code Along | No solution file available|
 | ------------- |:-------------|
@@ -102,13 +102,13 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 ===
 
 
-###Lab Time
-####Time: 50min
+####Lab Time
+Time: 50min
 
 Time for students to apply what they learned. Setup lab time by explaining to students what is expected of them.
  
  
-####Chocolate Chip Cookie Recipe
+#####Chocolate Chip Cookie Recipe
 
 | Exercise |[Solution File](solution/cookie_recipe) |
 | ------------- |:-------------|
