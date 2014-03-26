@@ -30,9 +30,9 @@ Share assignment folder (link above).
 *	__Assignment__: Create a personal website with about me and resume pages.  
 
 
-===
+---
 
-##Lesson Planning Notes
+###LESSON PLANNING NOTES
 
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
@@ -53,7 +53,7 @@ Suggestions for pattern examples:
 
 *	Tags describe the content. 
 
----
+===
  
  
 ###Adding Structure
@@ -76,7 +76,7 @@ The goal of this section is to explain what it means to add "structure" to a doc
 
 *	See a [suggestion](solution/ga_press_release/instr_notes.md) of how our Curriculum Fellow implemented this code along.
 
----
+===
 
 ###External Style Sheets
 ###Time: 60min
@@ -99,7 +99,7 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 | __Description__| This is an exercise to show students external style sheets|   
 | __Notes__| There is no styled solution. Feel free to style how you would like. | 
  
----
+===
 
 
 ###Lab Time
@@ -117,7 +117,7 @@ Time for students to apply what they learned. Setup lab time by explaining to st
 | __Description__| Students add markup to a chocolate chip cookie recipe. This also serves as a time to practice web dev tools (sublime, chrome, finder etc)|    
 | __Notes__| The starter code contains .html file with instructions and an image for the bonus questions. Students are required to google and implement the```<ol>``` tag.|
 
----
+===
 
 [![slides](../../img/icons/slides.png)](slides.md)
 
