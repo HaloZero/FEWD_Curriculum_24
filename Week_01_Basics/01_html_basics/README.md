@@ -1,4 +1,3 @@
-
 ![GeneralAssemb.ly](../../img/icons/instr_agenda.png)
 
 
@@ -36,8 +35,6 @@ Share assignment folder (link above).
 ##Lesson Planning Notes
 
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
-
-===
 
 
 ###HTML TAGS & CSS Selectors Review
