@@ -24,9 +24,7 @@
 | 30 min | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#lab-time) | Wendy G. Bite Résumé|Students create a Résumé for Wendy.|
 
 
-###[ASSIGNMENT](../Assignment/)
-
-Share assignment folder (link above). 
+###ASSIGNMENT 
 
 *	__Assignment__: Create a personal website with about me and resume pages.  
 
