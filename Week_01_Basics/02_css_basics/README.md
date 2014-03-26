@@ -34,6 +34,7 @@
 
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
+===
 
 ####Review
 __Time: 30min__
