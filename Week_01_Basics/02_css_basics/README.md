@@ -71,7 +71,7 @@ There is more content about paths, colors and fonts in the skeloton slides.
 
 __Part 1:__ 
 
-Review answers to "What Tag Is It?" This is an opportunity to formally introduce the img tag and (including relative / absolute paths), nav tag. Also is a chance to review structure of an html file <html> /<html>, <body>, <!doctype>, head, meta, title This is also the time to add to students understanding of the DOM.
+Review answers to "What Tag Is It?" This is an opportunity to formally introduce the img tag and (including relative / absolute paths), nav tag. Also is a chance to review structure of an html file ```<html> /<html>, <body>, <!doctype>, head, meta, title``` This is also the time to add to students understanding of the DOM.
 
 	
 __Part 2:__ 
