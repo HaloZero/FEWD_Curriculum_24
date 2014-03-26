@@ -71,16 +71,16 @@ There is more content about paths, colors and fonts in the skeloton slides.
 
 __Part 1:__ 
 
-```Review answers to "What Tag Is It?" Formally introduce the img tag and (including relative / absolute paths), nav tag. Use this time to show students the file structure of an html file <html> /<html>, <body>, <!doctype>, head, meta, title This is also the time to add to students understanding of the DOM.```
+Review answers to "What Tag Is It?" This is an opportunity to formally introduce the img tag and (including relative / absolute paths), nav tag. Also is a chance to review structure of an html file <html> /<html>, <body>, <!doctype>, head, meta, title This is also the time to add to students understanding of the DOM.
 
 	
 __Part 2:__ 
 
-```Style Wendy G. Bites About me page. Note that we introduce margin and padding. Next lesson, we will go into more details about the box model.```
+Adding Style Wendy G. Bites About me page. Note that the code introduces margin and padding. Next lesson, we have  about the box model.
 
 __Part 3:__
 
-```Add a link to the resume page. During lab time, they will add css to style the résumé page. Remember to create a resume.html file with the students, as this is the first time they will see linking pages. This is also an opportunity to re iterate what was said about absolute and relative paths. Students should complete any necessary styling and html for the resume page.```
+Add a link to the resume page. During lab time, add css to style the résumé page. Remember to create a resume.html file with the students, as this is the first time they will see linking pages. This is also an opportunity to re iterate what was said about absolute and relative paths. During the lab time, students complete any necessary styling and html for the resume page.
 
 ===
 
