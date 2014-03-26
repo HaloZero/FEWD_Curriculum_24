@@ -30,7 +30,7 @@ Share assignment folder (link above).
 *	__Assignment__: Create a personal website with about me and resume pages.  
 
 
----
+===
 
 ##Lesson Planning Notes
 
