@@ -37,7 +37,7 @@ Share assignment folder (link above).
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
 
-###HTML TAGS & CSS Selectors Review
+###HTML Tags & CSS Selectors Review
 ####Time : 10min
 
  *	This section is a refresher for students. As pre-work we asked students to complete Project 1: ["Anna's Website"](https://dash.generalassemb.ly/projects/annas-website-1) in Dash. Review tag syntax (tags have opening and closing brackets etc.) Review CSS syntax. __NOTES: Students were only introduced to element selectors.__
