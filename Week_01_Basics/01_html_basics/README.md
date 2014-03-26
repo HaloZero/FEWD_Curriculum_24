@@ -3,7 +3,7 @@
 
 ##Lesson 01 - HTML Basics
 
-###Learning Objectives
+###LEARNING OBJECTIVES
 
 *	Apply HTML tags ```<html><head><!DOCTYPE html><body>``` to a web page and experiment with html tags.
 
@@ -12,33 +12,26 @@
 *	Create and link an external style sheet.
 
 
-###Schedule
+###SCHEDULE
 
 
 | Time        | Section| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 10 min | [HTML Tag & CSS Selectors Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/01_html_basics/README.md#html-tags--css-selectors-review) | N/A| Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
+| 10 min | [HTML Tag & CSS Selectors Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/01_html_basics/README.md#html-tags--css-selectors-review) | N/A | Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
 | 60 min | [Adding Structure](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#adding-structure) | GA Press Release | Basic site to review .html files and tags. Another great opportunity to show students how to use sublime text, and get everyone up to speed and ready to move forward.|
 | 60 min | [External Style Sheets] (https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#external-style-sheets) |GA Press Release| Demonstrate how to create an external style sheet using the press release. Review CSS selectors by styling the press release as you see fit.|
 | 50 min | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#lab-time) | Cookies Recipe | Students add tags to a Cookie recipe, and style as they see fit.|
 
 
-###Week 1: [Assignment](../Assignment/)
-
-Share assignment folder (link above). 
-
-*	__Assignment__: Create a personal website with about me and resume pages.  
-
-
 ---
 
-###Lesson Planning Notes
+###LESSON PLANNING NOTES
 
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
 
 ####HTML Tags & CSS Selectors Review
-Time : 10min
+__Time : 10min__
 
  *	This section is a refresher for students. As pre-work we asked students to complete Project 1: ["Anna's Website"](https://dash.generalassemb.ly/projects/annas-website-1) in Dash. Review tag syntax (tags have opening and closing brackets etc.) Review CSS syntax. __NOTES: Students were only introduced to element selectors.__
  
@@ -57,7 +50,7 @@ Suggestions for pattern examples:
  
  
 ####Adding Structure
-Time : 60min
+__Time : 60min__
 
 The goal of this section is to explain what it means to add "structure" to a document with HTML, and how to approach content. 
 
@@ -79,7 +72,7 @@ The goal of this section is to explain what it means to add "structure" to a doc
 ===
 
 ####External Style Sheets
-Time: 60min
+__Time: 60min__
 
 This can be used to introduce/review very basic aspects of CSS to students, especially as their first look at "styling a page" with external CSS. I recommend sticking to the following guidelines:
 
@@ -105,8 +98,7 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 ####Lab Time
 Time: 50min
 
-Time for students to apply what they learned. Setup lab time by explaining to students what is expected of them.
- 
+Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
  
 #####Chocolate Chip Cookie Recipe
 

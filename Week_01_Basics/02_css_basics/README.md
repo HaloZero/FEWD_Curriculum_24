@@ -22,14 +22,7 @@
 | ------------- |:-------------|:-------------------|:----------------|
 | 30 min |Review |[What Tag Is It?]() |Review exercise. Students will be asked to Google how to implement: ```<nav> <img> and <hr>```. |
 | 120 min | Building A Simple Page| Wendy G. Bite [About Me]() | 3 part code along to demonstrate building a simple page. Topics include: ```<nav> <img> and <hr>```, colors, fonts intro to margin and padding. |
-| 30 min |Lab Time | Wendy G. Bite [Resume]()|Students create a Résumé for Wendy.|
-
-
-###WEEK 1: [ASSIGNMENT](../Assignment/)
-
-Share assignment folder (link above). 
-
-*	__Assignment__: Create a personal website with about me and resume pages.  
+| 30 min |Lab Time | Wendy G. Bite [Resume]()|Students create a Résumé for Wendy.| 
 
 ---
 

@@ -45,7 +45,6 @@ header nav a:hover {
   font-size: 48px;
   padding: 20% 0;
   margin: 0;
-  text-shadow: 0 0 10px black;
   background: rgba(0,0,0,.2);
 }
 
@@ -79,7 +78,6 @@ header nav a:hover {
 ul{
   line-height: 1.5;
 }
-
 
 #info1 {
   background: rgb(60, 199, 165);
