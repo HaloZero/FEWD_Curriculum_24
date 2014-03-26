@@ -1,4 +1,3 @@
-
 ![GeneralAssemb.ly](../../img/icons/instr_agenda.png)
 
 
@@ -20,12 +19,12 @@
 
 | Time        | Section| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 30 min |Review |[What Tag Is It?]() |Review exercise. Students will be asked to Google how to implement: ```<nav> <img> and <hr>```. |
-| 120 min | Building A Simple Page| Wendy G. Bite [About Me]() | 3 part code along to demonstrate building a simple page. Topics include: ```<nav> <img> and <hr>```, colors, fonts intro to margin and padding. |
-| 30 min |Lab Time | Wendy G. Bite [Resume]()|Students create a Résumé for Wendy.|
+| 30 min |[Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#review) | What Tag Is It? |Review exercise. Students will be asked to Google how to implement: ```<nav> <img> and <hr>```. |
+| 120 min | [Building A Simple Page](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#building-a-simple-page) | Wendy G. Bite | 3 part code along to demonstrate building a simple page. Topics include: ```<nav> <img> and <hr>```, colors, fonts intro to margin and padding. |
+| 30 min | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#lab-time) | Wendy G. Bite Résumé|Students create a Résumé for Wendy.|
 
 
-###WEEK 1: [ASSIGNMENT](../Assignment/)
+###[ASSIGNMENT](../Assignment/)
 
 Share assignment folder (link above). 
 
