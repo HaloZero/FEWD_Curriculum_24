@@ -74,7 +74,7 @@ The goal of this section is to explain what it means to add "structure" to a doc
 | __Notes__| Omit ordered list ```<ol>```, students will Google it during lab time.|  
 
 
-*	See a [suggestion](solution/ga_press_release/instr_notes.md) of how our Curriculum Fellow implemented this exercise.
+*	See a [suggestion](solution/ga_press_release/instr_notes.md) of how our Curriculum Fellow implemented this code along.
 
 ---
 
