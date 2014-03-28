@@ -83,7 +83,7 @@ _Time: 60min_
 *	We've found that students sometimes spend the first 30 min of lab time, pondering what to do first. This lab time we want to help them take those first steps.
 
 
-|Group Discussion | How To Start |
+|Group discussion | How To Start |
 | ------------- |:-------------|
 | __Time__ | 10 min | 
 | __Topics__ | starting a project | 
