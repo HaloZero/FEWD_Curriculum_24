@@ -10,5 +10,5 @@ __Main project:__ Fashion Blog Part 2 & Startup Match Maker.
 ![](05_layout_lab/starter_code/fashion_blog_part2.png)
 
 
-![](06_html_css_lab/starter_code/startup_matchmaker/StartupMatchmaker.png)
+![](06_HTML_CSS_Lab/starter_code/startup_matchmaker/StartupMatchmaker.png)
 

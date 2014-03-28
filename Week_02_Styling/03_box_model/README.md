@@ -19,7 +19,7 @@
 
 
 | Time        | Topic| GA ICLs| Comments |
-| ------------- |:-------------|:-------------------|:----------------|
+|:------------- |:-------------|:-------------------|:----------------|
 | _10 min_ | Review | assignment review| Review topics students may be struggling with. We found that student need more practice with paths.|
 | _50 min_ | [Box Model]()| Tags & Boxes | Margin, border and padding..oh my |
 | _40 min_ | [Selectors & The DOM]() | Nested Selectors |  |
@@ -40,10 +40,8 @@ This section is meant to build students understanding of how elements are spaced
 *	Our examples use familiar tags to teach students about box model. We wanted students to only learn box model and not any new tags. In the following example we will show students classes and ids and how the box model applies. 
 
 
-#####Tags & Boxes
-
-|Code Along | [solution file]](solution/tags_boxesl)|
-| ------------- |:-------------|
+|Code along | [Tags & Boxes](solution/tags_boxesl) | 
+|:------------- |:-------------|
 | __Time__ | ~20 min | 
 | __Topics__ | margin, padding, box model | 
 | __Description__| A code example to help explain box model. |   
@@ -62,17 +60,15 @@ _Time: 20min_
 
 
 | Exercise | Draw Me A DOM |
-| ------------- |:-------------|
+| :------------- |:-------------|
 | __Time__ | ~10 min |
 | __Topics__ | drawing a dom tree | 
 | __Description__|Students take what they learned about the DOM and draw a tree for the [assignment files](../Assignment/index.html)|   
 | __Notes__| This is a group exercise. We use DIVs in assignment file, you will have to briefly explain that it sections content and we will discuss more next class.| 
  
 
-#####Nested Selectors
-
-| Code Along| [solution file](solutions/nested_selectors) |
-| ------------- |:-------------|
+| Code along| [Nested Selectors](solutions/nested_selectors) |
+| :------------- |:-------------|
 | __Time__ | ~10 min |
 | __Topics__ | selectors, blockquotes, nesting | 
 | __Description__| Students practice nesting elements and selecting elements that are nested. |   
@@ -86,20 +82,18 @@ _Time: 60min_
 
 *	We've found that students sometimes spend the first 30 min of lab time, pondering what to do first. This lab time we want to help them take those first steps.
 
-#####How To Start: 10 min
 
-|Group Discussion | No files |
+|Group discussion | How To Start |
 | ------------- |:-------------|
+| __Time__ | 10 min | 
 | __Topics__ | starting a project | 
 | __Description__| Guide students in taking the first steps to building the Fashion blog. |   
 |__Notes__| If you were given the fashion blog site part 1, what is the first thing  you would do. The goal here is to teach students that process; how to start.|
 
 
 
-#####[Fashion Blog](solution/fashion_blog_part1)
-
-| Exercise|[Fashion Blog](solution/fashion_blog_part1)|
-| ------------- |:-------------|
+|Exercise|[Fashion Blog](solution/fashion_blog_part1)|
+|:------------- |:-------------|
 | __Time__ | 50 min | 
 | __Topics__ | html, css, divs, ids, classes | 
 | __Description__| Students use the fashion_blog.pdf to recreate the Fashion Blog website. |    
