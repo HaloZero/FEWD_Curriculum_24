@@ -42,7 +42,7 @@ This section is meant to build students understanding of how elements are spaced
 
 #####Tags & Boxes
 
-|Code Along | [solution file](solution/tags_boxesl)|
+|Code Along | [solution file](solution/tags_boxesl) | 
 | ------------- |:-------------|
 | __Time__ | ~20 min | 
 | __Topics__ | margin, padding, box model | 
@@ -69,9 +69,7 @@ _Time: 20min_
 | __Notes__| This is a group exercise. We use DIVs in assignment file, you will have to briefly explain that it sections content and we will discuss more next class.| 
  
 
-#####Nested Selectors
-
-| Code Along| [solution file](solutions/nested_selectors) |
+| Code Along| [Nested Selectors](solutions/nested_selectors) |
 | ------------- |:-------------|
 | __Time__ | ~10 min |
 | __Topics__ | selectors, blockquotes, nesting | 
@@ -86,17 +84,15 @@ _Time: 60min_
 
 *	We've found that students sometimes spend the first 30 min of lab time, pondering what to do first. This lab time we want to help them take those first steps.
 
-#####How To Start: 10 min
 
-|Group Discussion | No files |
+|Group Discussion | How To Start |
 | ------------- |:-------------|
+| __Time__ | 10 min | 
 | __Topics__ | starting a project | 
 | __Description__| Guide students in taking the first steps to building the Fashion blog. |   
 |__Notes__| If you were given the fashion blog site part 1, what is the first thing  you would do. The goal here is to teach students that process; how to start.|
 
 
-
-#####[Fashion Blog](solution/fashion_blog_part1)
 
 | Exercise|[Fashion Blog](solution/fashion_blog_part1)|
 | ------------- |:-------------|
