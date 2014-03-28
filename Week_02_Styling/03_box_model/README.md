@@ -40,9 +40,7 @@ This section is meant to build students understanding of how elements are spaced
 *	Our examples use familiar tags to teach students about box model. We wanted students to only learn box model and not any new tags. In the following example we will show students classes and ids and how the box model applies. 
 
 
-#####Tags & Boxes
-
-|Code along | [solution file](solution/tags_boxesl) | 
+|Code along | [Tags & Boxes](solution/tags_boxesl) | 
 |:------------- |:-------------|
 | __Time__ | ~20 min | 
 | __Topics__ | margin, padding, box model | 
