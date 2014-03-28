@@ -42,7 +42,7 @@ This section is meant to build students understanding of how elements are spaced
 
 #####Tags & Boxes
 
-|Code Along | [solution file]](solution/tags_boxesl)|
+|Code Along | [solution file](solution/tags_boxesl)|
 | ------------- |:-------------|
 | __Time__ | ~20 min | 
 | __Topics__ | margin, padding, box model | 
