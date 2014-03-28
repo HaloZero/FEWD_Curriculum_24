@@ -19,9 +19,9 @@
 
 | Time        | Section| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 30 min |[Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#review) | What Tag Is It? |Review exercise. Students will be asked to Google how to implement: ```<nav> <img> and <hr>```. |
-| 120 min | [Building A Simple Page](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#building-a-simple-page) | Wendy G. Bite | 3 part code along to demonstrate building a simple page. Topics include: ```<nav> <img> and <hr>```, colors, fonts intro to margin and padding. |
-| 30 min | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#lab-time) | Wendy G. Bite Résumé|Students create a Résumé for Wendy.|
+| _30 min_ |[Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#review) | What Tag Is It? |Review exercise. Students will be asked to Google how to implement: ```<nav> <img> and <hr>```. |
+| _120 min_ | [Building A Simple Page](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#building-a-simple-page) | Wendy G. Bite | 3 part code along to demonstrate building a simple page. Topics include: ```<nav> <img> and <hr>```, colors, fonts intro to margin and padding. |
+| _30 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/02_css_basics/README.md#lab-time) | Wendy G. Bite Résumé|Students create a Résumé for Wendy.|
 
 =======
 
@@ -33,14 +33,14 @@ Below you will find notes on each section from the proposed schedule above. Thes
 ===
 
 ####Review
-__Time: 30min__
+_Time: 30min_
 
 *	This time is meant to review html tags, and linking to external style sheets. 
 
 #####What Tag Is It?
 
 | Exercise | [Solution File](solution/Wendy_Bite_Solution)|
-| ------------- |:-------------|
+|:------------- |:-------------|
 | __Time__ | 20 min| 
 | __Topics__ | HTML Basics| 
 | __Description__| Students are provided a png file of the completed website in the starter code folder. Their task is to write markup by identifying what tags to use and link to an external style sheet. |    
@@ -51,13 +51,13 @@ __Time: 30min__
 ####Building A Simple Page
 __Time: 20min__
 
-This section is meant to show students how to research tags. (```<nav> <img> and <hr>``). In addition to teaching students about HTML structure (Body, Head etc). We supplied a 3 part code along to help communicate these concepts.
+*	This section is meant to show students how to research tags. (```<nav> <img> and <hr>``). In addition to teaching students about HTML structure (Body, Head etc). We supplied a 3 part code along to help communicate these concepts.
 
 There is more content about paths, colors and fonts in the skeloton slides.
 
 ####Wendy Bite About Me
 
-| Code Along| [Solution File](solution/Wendy_Bite_Solution) |
+| Code along| [Solution File](solution/Wendy_Bite_Solution) |
 | ------------- |:-------------|
 | __Time__ | ~60 min| 
 | __Topics__ | css, colors, fonts, linking to other pages, ```<style>```,```<img>```, ```<nav>```| 
@@ -81,14 +81,14 @@ Add a link to the resume page. During lab time, add css to style the résumé pa
 ===
 
 ####Lab Time
-__Time: 30min__
+_Time: 30min_
 
-Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
+*	Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
 
 ####Wendy G. Bite 
 
 |Exercise |[Solution File](solution/Wendy_Bite_Solution) |
-| ------------- |:-------------|
+|:------------- |:-------------|
 | __Topics__ | html, css, linking pages| 
 | __Description__| Students create the resume page for Wendy G. Bite. |    
 | __Notes__ | Point out that when they add the link tag to reference style.css, the styling from the code along will be applied to their page.| 

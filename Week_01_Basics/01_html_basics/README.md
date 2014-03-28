@@ -7,7 +7,7 @@
 
 *	Apply HTML tags ```<html><head><!DOCTYPE html><body>``` to a web page and experiment with html tags.
 
-*	Describe the DOM and draw simple DOM tree.
+*	Describe the DOM and draw a simple DOM tree.
 
 *	Create and link an external style sheet.
 
@@ -17,10 +17,10 @@
 
 | Time        | Section| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 10 min | [HTML Tag & CSS Selectors Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/01_html_basics/README.md#html-tags--css-selectors-review) | N/A | Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
-| 60 min | [Adding Structure](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#adding-structure) | GA Press Release | Basic site to review .html files and tags. Another great opportunity to show students how to use sublime text, and get everyone up to speed and ready to move forward.|
-| 60 min | [External Style Sheets] (https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#external-style-sheets) |GA Press Release| Demonstrate how to create an external style sheet using the press release. Review CSS selectors by styling the press release as you see fit.|
-| 50 min | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#lab-time) | Cookies Recipe | Students add tags to a Cookie recipe, and style as they see fit.|
+| _10 min_ | [HTML Tag & CSS Selectors Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_01_Basics/01_html_basics/README.md#html-tags--css-selectors-review) | N/A | Review basic rules about HTML tags and CSS element selectors. Students were introduced to selectors and tags in Dash. |
+| _60 min_ | [Adding Structure](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#adding-structure) | GA Press Release | Basic site to review .html files and tags. Another great opportunity to show students how to use sublime text, and get everyone up to speed and ready to move forward.|
+| _60 min_ | [External Style Sheets](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#external-style-sheets) |GA Press Release| Demonstrate how to create an external style sheet using the press release. Review CSS selectors by styling the press release as you see fit.|
+| _50 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_01_Basics/01_html_basics#lab-time) | Cookies Recipe | Students add tags to a Cookie recipe, and style as they see fit.|
 
 
 ---
@@ -31,7 +31,7 @@ Below you will find notes on each section from the proposed schedule above. Thes
 
 
 ####HTML Tags & CSS Selectors Review
-__Time : 10min__
+_Time : 10min_
 
  *	This section is a refresher for students. As pre-work we asked students to complete Project 1: ["Anna's Website"](https://dash.generalassemb.ly/projects/annas-website-1) in Dash. Review tag syntax (tags have opening and closing brackets etc.) Review CSS syntax. __NOTES: Students were only introduced to element selectors.__
  
@@ -50,7 +50,7 @@ Suggestions for pattern examples:
  
  
 ####Adding Structure
-__Time : 60min__
+_Time : 60min_
 
 The goal of this section is to explain what it means to add "structure" to a document with HTML, and how to approach content. 
 
@@ -59,8 +59,8 @@ The goal of this section is to explain what it means to add "structure" to a doc
 
 #####GA Press Release
 
-| Code Along | [GA Solution File](solution/ga_press_release)|
-| ------------- |:-------------|
+| Code along | [GA Solution File](solution/ga_press_release)|
+| :------------- |:-------------|
 | __Time__ | 30 min| 
 | __Topics__ | HTML Tags, Nesting| 
 | __Description__| This introductory code along meant to teach students how to read with understanding and apply the correct tag.|   
@@ -72,7 +72,7 @@ The goal of this section is to explain what it means to add "structure" to a doc
 ===
 
 ####External Style Sheets
-__Time: 60min__
+_Time: 60min_
 
 This can be used to introduce/review very basic aspects of CSS to students, especially as their first look at "styling a page" with external CSS. I recommend sticking to the following guidelines:
 
@@ -85,8 +85,8 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 
 #####GA Press Release Styled 
 
-|Code Along | No solution file available|
-| ------------- |:-------------|
+|Code along | No solution file available|
+| :------------- |:-------------|
 | __Time__ | 30 min| 
 | __Topics__ | External style sheets, CSS selectors| 
 | __Description__| This is an exercise to show students external style sheets|   
@@ -96,14 +96,14 @@ This can be used to introduce/review very basic aspects of CSS to students, espe
 
 
 ####Lab Time
-__Time: 50min__
+_Time: 50min_
 
 Time for students to apply what they learned. Setup lab time by letting students know how to start the exercise and what is expected of them. 
  
 #####Chocolate Chip Cookie Recipe
 
 | Exercise |[Solution File](solution/cookie_recipe) |
-| ------------- |:-------------|
+| :------------- |:-------------|
 | __Topics__ | html tags| 
 | __Topics__ | html tags, external style sheet | 
 | __Description__| Students add markup to a chocolate chip cookie recipe. This also serves as a time to practice web dev tools (sublime, chrome, finder etc)|    

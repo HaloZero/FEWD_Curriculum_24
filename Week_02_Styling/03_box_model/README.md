@@ -20,10 +20,10 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 10 min | Review | assignment review| Review topics students may be struggling with. We found that student need more practice with paths.|
-| 50 min | [Box Model]()| Tags & Boxes | Margin, border and padding..oh my |
-| 40 min | [Selectors & The DOM]() | Nested Selectors |  |
-| 50 min | [Lab Time]()| How To Start <br/> Fashion Blog|
+| _10 min_ | Review | assignment review| Review topics students may be struggling with. We found that student need more practice with paths.|
+| _50 min_ | [Box Model]()| Tags & Boxes | Margin, border and padding..oh my |
+| _40 min_ | [Selectors & The DOM]() | Nested Selectors |  |
+| _50 min_ | [Lab Time]()| How To Start <br/> Fashion Blog|
 
 ---
 
@@ -33,7 +33,7 @@
 Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
 
 ####Box Model 
-__Time: 50min__
+_Time: 50min_
 
 This section is meant to build students understanding of how elements are spaced on the page.
 
@@ -53,9 +53,9 @@ This section is meant to build students understanding of how elements are spaced
 ===
 
 ####Selectors & The DOM
-__Time: 20min__
+_Time: 20min_
 
-We use blockquotes and other nested tags to show students how to be more precise with there selectors. Students often struggle with selecting elements on the page that are nested between other tags. 
+*	We use blockquotes and other nested tags to show students how to be more precise with there selectors. Students often struggle with selecting elements on the page that are nested between other tags. 
 
 *	Students find it helpful to draw a DOM tree on the white board.
 
@@ -82,9 +82,9 @@ We use blockquotes and other nested tags to show students how to be more precise
 
 
 ####Lab Time
-__Time: 60min__
+_Time: 60min_
 
-We've found that students sometimes spend the first 30 min of lab time, pondering what to do first. This lab time we want to help them take those first steps.
+*	We've found that students sometimes spend the first 30 min of lab time, pondering what to do first. This lab time we want to help them take those first steps.
 
 #####How To Start: 10 min
 
