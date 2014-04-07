@@ -23,10 +23,10 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| _60 min_ | [Refactoring]() | refactor |  
-| _30 min_ | ["this" keyword]()| Color Scheme|  |
-| _30 min_ | [Debug]() | Debug |  |
-| _45 min_ | [Refactor Labs]()| Refactor FAQ <br> Refactor Weather Application |  
+| _60 min_ | [Refactoring](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_06_Review_Rafactor/12_refactor#refactoring) | refactor |  
+| _30 min_ | ["this" keyword](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_06_Review_Rafactor/12_refactor#this-keyword)| Color Scheme|  |
+| _30 min_ | [Debug](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_06_Review_Rafactor/12_refactor#debug) | Debug |  |
+| _45 min_ | [Refactor Labs](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_06_Review_Rafactor/12_refactor#refactor-labs)| Refactor FAQ <br> Refactor Weather Application |  
 
 ---
 
