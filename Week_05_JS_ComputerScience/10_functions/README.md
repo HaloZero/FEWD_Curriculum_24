@@ -18,7 +18,7 @@
 | 60 min | [Function]() (Arguments & Returns)| Cash Register |  |
 | 45 min | [Anonymous Function]()  | Cash Register |  |
 | 30 min | [Revisiting jQuery]() | Students have a better understanding of  |
-| 30 min | [Lab Time]()| Temperature Converter <br> Evens & Odds |  |
+| 30 min | [Weather Application]()| Temperature Converter <br> Evens & Odds |  |
 
 
 ---
@@ -70,10 +70,16 @@ _Time : 30min_
 *	This section is open to instructors. This is an opportunity to show students other jQuery functions and events.  
 
 
-####Building A Web Application - Part 2
+####Weather Application - Part 2
 _Time : 60min_
 
+| Exercise | No solution file|
+| ------------- |:-------------|
+| __Time__ | 60 min | 
+| __Topics__ | variables, DOM manipulation | 
+| __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
+| __Notes__| Part 2 students begin to code the application. | 
 
-*	Students continue to build their weather application.
-
+*	Complete celsius to fareinheit code 
+*	Add background changing functionality.
 ---

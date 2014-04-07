@@ -23,7 +23,7 @@
 | 20 min | [jQuery Basics Review]() | DOM selector_solution  |  |
 | 40 min | [Variables]() | Score_Keeper |  |
 | 50 min | [Conditionals]() | Compare That <br> Blackout  |  |
-| 60 min | [Building A Web Application]() | Temperature Converter |  |
+| 60 min | [Weather Application]() | Temperature Converter |  |
 
 ---
 
@@ -89,7 +89,7 @@ _Time: 50min_
 ====
 
 
-####Building A Web Application - Part 1
+####Weather Application - Part 1
 _Time: 50min_
 
 
@@ -97,20 +97,17 @@ _Time: 50min_
 | ------------- |:-------------|
 | __Time__ | 45 min | 
 | __Topics__ | variables, DOM manipulation | 
-| __Description__| The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
+| __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
 | __Notes__| There is no solution file. This is intentional, each completed application should  be unique to each group. Start with the pseudo code. Allocate some time for students to work on the pseudo code for this example. | 
 
+Part 1: 
 
-__Teaching The Process__
- *	As a class write all of the feature requirements / user stories necessary to create a fully functional application that takes celsius temperature, converts it to fahrenheit and changes the background to match said temperature. 
- 
-*	Instructors need to scope the requirements into something that is manageable based on students knowledge.
+*	As a class write all of the feature requirements / user stories necessary to create a fully functional application that takes celsius temperature, converts it to fahrenheit and changes the background to match said temperature. 
 
-	*	To keep things simple, assign building the feature that changes the background image. (For example if a user clicks a cold button the background changes to a winter scene). Next feature could be to add a text box that accepts a temperature and converts it to fahrenheit and displays it to the DOM. Next lesson students can add conditionals. It is important to let students know that we will incrementally build this project. 
-	
-	*	Background images are up to the student. The starter code offers some options from creattive commons.
+*	In groups of 4 write pseudo code for the application. 
 
-*	Wire-framing and pseudo code are all great resources to help start this application. Remember to teach students how to start.
+*	In pairs write the code to convert celcisus into fareinheit, and display the result in the broswer. 
+
 
 ----
 
