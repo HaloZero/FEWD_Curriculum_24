@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: georgia, sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  font-family: impact, sans-serif;
+  font-weight: bold;
+}
+
+a{
+  color: rgb(60, 199, 165);
+}
+
+
+header nav {
+  text-align: center;
+  background: rgba(0,0,0,.75);
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+header nav a {
+  color: rgba(255,255,255,.5);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+header nav a:hover {
+  color: white;
+}
+
+.slogan {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.slogan h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 48px;
+  padding: 20% 0;
+  margin: 0;
+  background: rgba(0,0,0,.2);
+}
+
+#slogan1 {
+    background-image: url('');
+}
+#slogan2 {
+  background-image: url('');
+}
+#slogan3 {
+    background-image: url('');
+}
+#slogan4 {
+    background-image: url('');
+}
+
+.info {
+  background: black;
+  color: white;
+  padding: 100px 15%;
+}
+
+.info h3 {
+  font-size: 36px;
+  margin: 0;
+}
+ .info p {
+  line-height: 1.5;
+}
+
+ul{
+  line-height: 1.5;
+}
+
+#info1 {
+  background: rgb(60, 199, 165);
+  color: black;
+}
+#info2 {
+  background: #222;
+}
+#info3 {
+  background: #222;
+}
+#info4 {
+  background: #222;
+}
+
+.actions {
+  margin-top: 30px;
+  text-align: center;
+}
+.actions a {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-weight: bold;
+}
