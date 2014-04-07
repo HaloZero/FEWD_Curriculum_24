@@ -21,10 +21,10 @@
 | Time        | Topic| GA Suggested| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
 | _15 min_| Review| | |
-| _30 min_| [Div The Content]()| error_message | Divs, Classes and IDs.|
-| _20 min_ | [HTML5 Structural Elements]() | floating_sections | Some basic HTML5 structural elements (header, aside, footer)|
-| _50 min_ | [Floats]()| floating_sections | We use the structural elements and float them on th page.|
-| _45 min_ | [Lab Time]() | layout_challenge | Students add more complex elements and styling to the Fashion blog.|
+| _30 min_| [Div, IDs, Classes](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_02_Styling/04_layout/README.md#divs-ids--classes)| error_message | Divs, Classes and IDs.|
+| _20 min_ | [HTML5 Structural Elements](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_02_Styling/04_layout/README.md#html-5-structural-elements-float-and-clears) | floating_sections | Some basic HTML5 structural elements (header, aside, footer)|
+| _50 min_ | [Floats](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_02_Styling/04_layout/README.md#html-5-structural-elements-float-and-clears)| floating_sections | We use the structural elements and float them on th page.|
+| _45 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_02_Styling/04_layout/README.md#lab-time) | layout_challenge | Students add more complex elements and styling to the Fashion blog.|
 
 ---
 

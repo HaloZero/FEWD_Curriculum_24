@@ -15,10 +15,16 @@
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
 | 20 min | [Review]()| |  |
+<<<<<<< HEAD
 | 60 min | [Function]() (Arguments & Returns)| Cash Register |  |
 | 45 min | [Anonymous Function]()  | Cash Register |  |
 | 30 min | [Revisiting jQuery]() | Students have a better understanding of  |
 | 30 min | [Weather Application]()| Temperature Converter <br> Evens & Odds |  |
+=======
+| 100 min | [Function](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#functions) (Arguments & Returns)| Cash Register <br> Anonnymous Cash Register |  |
+| 30 min | [Revisiting jQuery](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#revising-jquery) | Students have a better understanding of  |
+| 30 min | [Weather Application](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#weather-application---part-2)| Temperature Converter |  |
+>>>>>>> 9c4a44866d46d21c8fd215a9079832cd611ea39d
 
 
 ---
@@ -79,6 +85,13 @@ _Time : 60min_
 | __Topics__ | variables, DOM manipulation | 
 | __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
 | __Notes__| Part 2 students begin to code the application. | 
+<<<<<<< HEAD
+=======
+
+*	Complete celsius to fareinheit code 
+*	Add background changing functionality.
+
+>>>>>>> 9c4a44866d46d21c8fd215a9079832cd611ea39d
 
 *	Complete celsius to fareinheit code 
 *	Add background changing functionality.

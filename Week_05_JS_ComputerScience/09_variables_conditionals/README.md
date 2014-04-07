@@ -20,10 +20,10 @@
 | TIME        | TOPIC| GA ICLs| COMMENTS |
 | ------------- |:-------------|:-------------------|:----------------|
 ||
-| 20 min | [jQuery Basics Review]() | DOM selector_solution  |  |
-| 40 min | [Variables]() | Score_Keeper |  |
-| 50 min | [Conditionals]() | Compare That <br> Blackout  |  |
-| 60 min | [Weather Application]() | Temperature Converter |  |
+| 20 min | [jQuery Basics Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/09_variables_conditionals/README.md#jquery-basics-review) | DOM selector_solution  |  |
+| 40 min | [Variables](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/09_variables_conditionals/README.md#variables) | Score_Keeper |  |
+| 50 min | [Conditionals](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/09_variables_conditionals/README.md#conditionals) | Compare That <br> Blackout  |  |
+| 60 min | [Weather Application](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/09_variables_conditionals/README.md#weather-application---part-1) | Temperature Converter |  |
 
 ---
 
