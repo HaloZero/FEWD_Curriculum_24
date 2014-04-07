@@ -1,0 +1,119 @@
+![GeneralAssemb.ly](../../img/icons/instr_agenda.png)
+
+
+####Lesson 09 - Conditionals 
+
+
+###LEARNING OBJECTIVES
+
+
+*	Define variables and identify best cases to use them.
+
+*	Differentiate between strings, integers and floats.
+
+*	Apply conditionals to change the programs control flow.
+
+
+###SCHEDULE
+
+
+| TIME        | TOPIC| GA ICLs| COMMENTS |
+| ------------- |:-------------|:-------------------|:----------------|
+||
+| 20 min | [jQuery Basics Review]() | DOM selector_solution  |  |
+| 40 min | [Variables]() | Score_Keeper |  |
+| 50 min | [Conditionals]() | Compare That <br> Blackout  |  |
+| 60 min | [Building A Web Application]() | Temperature Converter |  |
+
+---
+
+###LESSON PLANNING NOTES
+
+Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
+
+####jQuery Basics Review
+_Time: 20min_
+
+*	This section is a review from last class. We want to make sure students feel comfortable with the syntax.
+
+#####DOM Selectors
+
+| Code along | [GA Solution File](solution/domSelectors_solution)|
+| :------------- |:-------------|
+| __Time__ | 20 min| 
+| __Topics__ | jQuery click event, DOM manipulation| 
+| __Description__| Review homework assignments|   
+| __Notes__|  N/A |
+
+===
+
+####Variables
+_Time: 40min_
+
+*	Students learn about variables, data types and arithmetic in JavaScript.
+
+#####Score Keeper
+
+|Code along | [GA Solution File](solution/score_keeper)|
+| ------------- |:-------------|
+| __Time__ | 30 min| 
+| __Topics__ | data types, variables | 
+| __Description__| Bare bones example that keeps scores. Meant to introduce variables. |   
+| __Notes__| Starter code is included to save you time. It's helpful to demo the final product before coding, this way students know what they are working towards. Give students time to look through the HTML code. You can change buttons to experiment with other data types. | 
+ 
+===
+
+
+####Conditionals
+_Time: 50min_
+
+#####Compare That
+
+|Code along | [GA Solution File](solutions/compare_that)|
+| ------------- |:-------------|
+| __Time__ | 20 min | 
+| __Topics__ | conditionals, variables, text box | 
+| __Description__| Visual representation of conditionals, while teaching conditionals |    
+| __Notes__| It is intentional that ID, tag and variable names are similar. We want students to begin to identify the difference. | 
+
+
+#####Blackout
+
+| Code Along | [GA Solution File](solutions/blackout) <br> Code pen version available [here](http://codepen.io/nevan/pen/ywqEC)|
+| ------------- |:-------------|
+| __Time__ | 15 min | 
+| __Topics__ | jQuery functions .addClass, .removeClass  | 
+| __Description__| Updates to Blackout code along to showcase more jQuery functions and best practices to adding interactivity to a website.|   
+| __Notes__| Allow the students to take the lead on this one. This is a key skill  students need for lab time and the next lesson. | 
+ 
+====
+
+
+####Building A Web Application - Part 1
+_Time: 50min_
+
+
+| Exercise | No solution file|
+| ------------- |:-------------|
+| __Time__ | 45 min | 
+| __Topics__ | variables, DOM manipulation | 
+| __Description__| The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
+| __Notes__| There is no solution file. This is intentional, each completed application should  be unique to each group. Start with the pseudo code. Allocate some time for students to work on the pseudo code for this example. | 
+
+
+__Teaching The Process__
+ *	As a class write all of the feature requirements / user stories necessary to create a fully functional application that takes celsius temperature, converts it to fahrenheit and changes the background to match said temperature. 
+ 
+*	Instructors need to scope the requirements into something that is manageable based on students knowledge.
+
+	*	To keep things simple, assign building the feature that changes the background image. (For example if a user clicks a cold button the background changes to a winter scene). Next feature could be to add a text box that accepts a temperature and converts it to fahrenheit and displays it to the DOM. Next lesson students can add conditionals. It is important to let students know that we will incrementally build this project. 
+	
+	*	Background images are up to the student. The starter code offers some options from creattive commons.
+
+*	Wire-framing and pseudo code are all great resources to help start this application. Remember to teach students how to start.
+
+----
+
+[![slides](../../img/icons/slides.png)](slides.md)
+
+click icon for slides.
