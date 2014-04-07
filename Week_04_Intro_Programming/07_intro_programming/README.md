@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](../../../img/icons/instr_agenda.png)
+![GeneralAssemb.ly](../../img/icons/instr_agenda.png)
 
 
 ##Lesson 07 - Introduction To Programming
