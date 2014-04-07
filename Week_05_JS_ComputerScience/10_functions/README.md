@@ -15,10 +15,10 @@
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
 | 20 min | [Review]()| |  |
-| 60 min | [Function]() (Arguments & Returns)| Cash Register |  |
+| 60 min | [Function](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#functions) (Arguments & Returns)| Cash Register |  |
 | 45 min | [Anonymous Function]()  | Cash Register |  |
-| 30 min | [Revisiting jQuery]() | Students have a better understanding of  |
-| 30 min | [Lab Time]()| Temperature Converter <br> Evens & Odds |  |
+| 30 min | [Revisiting jQuery](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#revising-jquery) | Students have a better understanding of  |
+| 30 min | [Weather Application]()| Temperature Converter |  |
 
 
 ---
@@ -70,7 +70,7 @@ _Time : 30min_
 *	This section is open to instructors. This is an opportunity to show students other jQuery functions and events.  
 
 
-####Building A Web Application - Part 2
+####Weather Application - Part 2
 _Time : 60min_
 
 
