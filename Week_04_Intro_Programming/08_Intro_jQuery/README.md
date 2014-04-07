@@ -17,10 +17,10 @@
 
 | TIME        | TOPIC| GA ICLs| COMMENTS |
 | ------------- |:-------------|:-------------------|:----------------|
-| _10min_ | [Intro To Programming Review]() | | |
-| _30min_ | [Intro To jQuery]() | jQuery_Color_Switcher| Frame the lesson and make a case for using jQuery. |
-| _60min_ | [jQuery Basics]() | jQuery_Traffic_Light <br> Syntax_Drill | Discuss adding jQuery to projects (CDN vs. stored jQuery file), and syntax. |
-| _60min_ | [Adding Interactivity]() | FAQ | Adding interactivity to a page. |
+| _10min_ | [Intro To Programming Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_04_Intro_Programming/08_Intro_jQuery/README.md#intro-to-programming-review) | | |
+| _30min_ | [Intro To jQuery](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_04_Intro_Programming/08_Intro_jQuery/README.md#intro-to-jquery) | jQuery_Color_Switcher| Frame the lesson and make a case for using jQuery. |
+| _60min_ | [jQuery Basics](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_04_Intro_Programming/08_Intro_jQuery/README.md#jquery-basics) | jQuery_Traffic_Light <br> Syntax_Drill | Discuss adding jQuery to projects (CDN vs. stored jQuery file), and syntax. |
+| _60min_ | [Adding Interactivity](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_04_Intro_Programming/08_Intro_jQuery/README.md#adding-interactivity) | FAQ | Adding interactivity to a page. |
 
 ---
 
