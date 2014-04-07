@@ -72,6 +72,16 @@ _Time : 30min_
 ####Weather Application - Part 2
 _Time : 60min_
 
+| Exercise | No solution file|
+| ------------- |:-------------|
+| __Time__ | 60 min | 
+| __Topics__ | variables, DOM manipulation | 
+| __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
+| __Notes__| Part 2 students begin to code the application. | 
+
+*	Complete celsius to fareinheit code 
+*	Add background changing functionality.
+
 
 *	Students continue to build their weather application.
 
