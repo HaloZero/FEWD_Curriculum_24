@@ -18,8 +18,8 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 20 min | Transitions |[transitions]()  |  |
-| 20 min | Animations | [animations]()   |  | 
+| 20 min | Transitions |transitions  |  |
+| 20 min | Animations | animations  |  | 
 | 120 min | Lab: Egg drop game | | Not a ground up project. Students only need to fill in missing code. All missing code has instructions. |
 
 
