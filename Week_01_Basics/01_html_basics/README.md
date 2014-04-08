@@ -104,7 +104,7 @@ Time for students to apply what they learned. Setup lab time by letting students
 
 | Exercise |[Solution File](solution/cookie_recipe) |
 | :------------- |:-------------|
-| __Topics__ | html tags| 
+| __Time__ | 50 min| 
 | __Topics__ | html tags, external style sheet | 
 | __Description__| Students add markup to a chocolate chip cookie recipe. This also serves as a time to practice web dev tools (sublime, chrome, finder etc)|    
 | __Notes__| The starter code contains .html file with instructions and an image for the bonus questions. Students are required to google and implement the```<ol>``` tag.|
