@@ -13,9 +13,9 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 100 min | Lab | Temperature Converter |
-| 30 min | Lab | Code Review |
-| 50 min | Lab | Temperature Converter Presentations |
+| 100 min | Building w/ jQuery | Temperature Converter |
+| 30 min  | Code Reviews | Temperature Converter |
+| 50 min  | Code Presentations | Temperature Converter Presentations |
 
 ---
 
