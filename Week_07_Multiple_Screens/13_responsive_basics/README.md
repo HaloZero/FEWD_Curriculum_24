@@ -22,11 +22,11 @@
 
 | Time | Topic| GA ICLs| Comments |
 | ------|:-------------|:-------------------|:----------------|
-| _30 min_| [Review]()| Boxes| This review should focus on layouts and CSS. There is time at the end of this session for general review. |
-| _60 min_| [Responsive Layout Design]()|Responsive Sites <br> Mobile Boxes| |
-| _10 min_| [Responsive - REM/EM]() | | |
-| _40 min_| [Responsive - Media Queries]()| Adding Media Queries | |
-| _20 min_| [Lab Time]()| | |
+| _30 min_| [Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/13_responsive_basics/README.md#review)| Boxes| This review should focus on layouts and CSS. There is time at the end of this session for general review. |
+| _60 min_| [Responsive Layout Design](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/13_responsive_basics/README.md#responsive-layouts)|Responsive Sites <br> Mobile Boxes| |
+| _10 min_| [Responsive - REM/EM](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/13_responsive_basics/README.md#remem) | | |
+| _40 min_| [Responsive - Media Queries](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/13_responsive_basics/README.md#media-queries)| Adding Media Queries | |
+| _20 min_| Lab Time | | |
 
 ---
 
