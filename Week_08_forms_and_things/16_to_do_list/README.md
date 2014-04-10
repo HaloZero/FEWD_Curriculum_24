@@ -14,8 +14,8 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| 60 min | [Feature Requirements]()| To Do List App | |
-| 120 min | [Lab Session ]()| To Do List App | |
+| 60 min | [Feature Requirements](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_08_forms_and_things/16_to_do_list#feature-requirements)| To Do List App | |
+| 120 min | [Lab Session ](https://github.com/generalassembly-studio/FEWD_2.0.0/tree/FEWD_2.0.1/Week_08_forms_and_things/16_to_do_list#lab-session)| To Do List App | |
 
 ---
 

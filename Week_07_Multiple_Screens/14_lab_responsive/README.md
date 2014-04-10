@@ -18,9 +18,9 @@
 
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
-| _20 min_ | [From Fixed To Responsive]() | Mobile Startup Matchmaker - part 1| Students will work in groups to identify ways to make matchmaker responsive.  |
-| _120 min_ | [Lab Time]() | Mobile Startup Matchmaker - part 2| Students will make match maker responsive and then add JS to create a sliding nav bar.  |
-| _40 min_ | [Lab Time Review]() | Mobile Startup Matchmaker - part 3| This is time reserved to review the exercise. |
+| _20 min_ | [From Fixed To Responsive](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/14_lab_responsive/README.md#from-fixed-to-responsive) | Mobile Startup Matchmaker - part 1| Students will work in groups to identify ways to make matchmaker responsive.  |
+| _120 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/14_lab_responsive/README.md#lab-time) | Mobile Startup Matchmaker - part 2| Students will make match maker responsive and then add JS to create a sliding nav bar.  |
+| _40 min_ | [Lab Time Review](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_07_Multiple_Screens/14_lab_responsive/README.md#lab-time-review) | Mobile Startup Matchmaker - part 3| This is time reserved to review the exercise. |
 
 
 ---

@@ -21,8 +21,8 @@
 | Time        | Topic| GA ICLs| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
 | 30 min | Review | pplication_Form| We've covered a lot of ground. Spend time reviewing all topics. |
-| 120 min | [Forms and Inputs]() | pplication_Form| A good place to take a break is right before radio buttons/checkboxes as the students. We need fresh brains so that grouping by name makes sense. |
-| 30 min | [Optional Content]() (get and validation) | Form_Validation Form_Search | This is __OPTIONAL__ depending on the pace of your course. |
+| 120 min | [Forms and Inputs](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_08_forms_and_things/15_form_basics/README.md#forms-and-inputs) | pplication_Form| A good place to take a break is right before radio buttons/checkboxes as the students. We need fresh brains so that grouping by name makes sense. |
+| 30 min | [Optional Content](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_08_forms_and_things/15_form_basics/README.md#optional-content) (get and validation) | Form_Validation Form_Search | This is __OPTIONAL__ depending on the pace of your course. |
 
 
 ---
