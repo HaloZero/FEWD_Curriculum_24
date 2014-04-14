@@ -83,7 +83,7 @@ In order to pass this course General Assembly students must:
 *	Complete and submit the course [final project](Final_Project/final_project_requirements.md) including all milestones.
 
 
-##AVAILABE TECHNOLOGY
+##AVAILABLE TECHNOLOGY
 
 *	We are working on a free hosting solution for students. In the mean time, we recommend using dropbox to host sites. 
 
