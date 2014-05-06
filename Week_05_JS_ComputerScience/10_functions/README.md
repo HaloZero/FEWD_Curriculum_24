@@ -16,7 +16,7 @@
 | ------------- |:-------------|:-------------------|:----------------|
 | 20 min | [Review]()| |  |
 | 100 min | [Function](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#functions) (Arguments & Returns)| Cash Register <br> Anonnymous Cash Register |  |
-| 30 min | [Revisiting jQuery](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#revising-jquery) | Students have a better understanding of  |
+| 30 min | [Revisiting jQuery](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#revising-jquery) | Students have a better understanding of JavaScript so let's revist jQuery |
 | 30 min | [Weather Application](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_05_JS_ComputerScience/10_functions/README.md#weather-application---part-2)| Temperature Converter |  |
 
 
