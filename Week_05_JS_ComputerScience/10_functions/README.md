@@ -78,14 +78,10 @@ _Time : 60min_
 | __Topics__ | variables, DOM manipulation | 
 | __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
 | __Notes__| Part 2 students begin to code the application. | 
-<<<<<<< HEAD
+
 =======
 
 *	Complete celsius to fareinheit code 
 *	Add background changing functionality.
 
->>>>>>> 9c4a44866d46d21c8fd215a9079832cd611ea39d
-
-*	Complete celsius to fareinheit code 
-*	Add background changing functionality.
 ---
