@@ -31,7 +31,7 @@ _Time : 60min_
 
 At this point, we don't expect students to write functions that return values on their own.
 
-We want to incrementally build on students understanding of functions. Thus far students understand it as code that alters the flow of control of a program. This section we formally introduce arguments, returns and anonymous functions. This lesson should ultimately add to students understanding of jQuery, and help them better read the docs.
+We want to incrementally build on student's understanding of functions. Student's understand functions as code that alters the flow of control of the program. This section we formally introduce arguments, returns and anonymous functions. This lesson should ultimately add to students understanding of jQuery, and help them better read the docs.
 
 __NOTE__ The top two questions students have about functions are: 
 
@@ -47,7 +47,7 @@ __NOTE__ The top two questions students have about functions are:
 | __Time__ | 30 min| 
 | __Topics__ | functions, arguments, returns, anonymous functions  | 
 | __Description__| A simple application to help demonstrate functions. This application takes an amount and adds it to a receipt. |   
-| __Notes__| We found it helps to discuss / write the pseudo code for the application before starting to code. The solution key for this exercise includes some advanced code. If your students are ready for the leap share the solution code as is. If not, refactor the exercise to something that is more manageable for your students. This application explains return functions. Next lesson we refactor this exercise to use anonymous functions.| 
+| __Notes__| We found it helps to discuss / write the pseudocode for the application before starting to code. The solution key for this exercise includes some advanced code. If your students are ready for the leap share the solution code as is. If not, refactor the exercise to something that is more manageable for your students. This application explains return functions. Next lesson we refactor this exercise to use anonymous functions.| 
  
  
 #####Anonymous Cash Register
@@ -65,9 +65,9 @@ __NOTE__ The top two questions students have about functions are:
 ####Revising jQuery
 _Time : 30min_
 
-*	Now that students know more about functions, you can have a more detailed conversation/explanation about jQuery and how it works. In addition you can better explain how to read the jQuery docs. In this section explain document.ready function, and how to use it.
+*	Now that students know more about functions, you can have a more detailed conversation/explanation about jQuery and how it works. In addition you can better explain how to read the jQuery docs. This section is a good opportunity to describe document.ready() function, and how to use it.
 
-*	This section is open to instructors. This is an opportunity to show students other jQuery functions and events.  
+*	This section is open to instructors. This is an opportunity to show students other jQuery functions and events.
 
 
 ####Weather Application - Part 2
@@ -77,12 +77,13 @@ _Time : 60min_
 | ------------- |:-------------|
 | __Time__ | 60 min | 
 | __Topics__ | variables, DOM manipulation | 
-| __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  fahrenheit and change the background image according to the weather. This is the first step in that process|    
+| __Description__| 3 part exercise. The final version of the Temp Converter will take celsius temperature input convert it to  Fahrenheit and change the background image according to the weather. This is the first step in that process|    
 | __Notes__| Part 2 students begin to code the application. | 
 
 =======
 
-*	Complete celsius to fareinheit code 
+*	Complete Celsius to Fareinheit code 
+
 *	Add background changing functionality.
 
 ---
