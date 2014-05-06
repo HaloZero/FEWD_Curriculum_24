@@ -24,18 +24,19 @@
 
 ###LESSON PLANNING NOTES
 
-Below you will find notes on each section from the proposed schedule above. These notes are  meant to help you plan for a great class.
+Below you will find notes on each section from the proposed schedule. These notes are  meant to help you plan an awesome lesson.
 
 ####Functions
 _Time : 60min_
 
-We don't expect students to write functions that return values on their own, at this point.
+At this point, we don't expect students to write functions that return values on their own.
 
-We want to incrementally build on students understanding of functions. Thus far students understand it as code that alters the flow of control of a program. This section we formally introduce functions including arguments, returns and anonymous. This lesson should add to students understanding of jQuery, and help them better read the docs.
+We want to incrementally build on students understanding of functions. Thus far students understand it as code that alters the flow of control of a program. This section we formally introduce arguments, returns and anonymous functions. This lesson should ultimately add to students understanding of jQuery, and help them better read the docs.
+
 __NOTE__ The top two questions students have about functions are: 
 
 >"When do I use them?"
->"Where do I put Them?"
+>"Where do I put them?"
 
 
 
