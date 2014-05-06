@@ -5,34 +5,30 @@
 
 ##DESCRIPTION
 
-The final project for FEWD will be to design and build a website of your choice. This project will test your knowledge of front-end web development, and it encapsulates everything you’ve learned in this course. The result will be a site that can be used in your portfolio. 
+The final project for FEWD will be to design and build a website of your choice. This project will test your knowledge of front-end web development, and it encapsulates everything you’ve learned in this course. The result will be a site that can be used in your portfolio. The objective of this project is to:
 
-The objective of this project is to:
-•	To demonstrate understanding of all topics covered during this course.
-•	To apply knowledge gained during this course by building a website from the ground up.
-•	To combine technical and design skills to create an efficient website that is compatible with all the latest modern browsers and devices. 
-
-We encourage you to exercise your creativity; instructors will validate feasibility and manage scope. Below are the core requirements that must be included. 
-
+*	Demonstrate an understanding of all topics covered during this course. 
+*	Apply knowledge gained during this course by building a website from the ground up. 
+*	Combine technical and design skills to create an efficient website that is compatible with mobile devices.
+*	We encourage you to exercise your creativity; instructors will validate feasibility and manage scope.
 
 ##CORE REQUIREMENTS
 
-*	__Demonstrate the process to plan and build your website by submitting all milestones.__ (see below)
+Use Web dev process to plan and develop
+*	Demonstrate the process to plan and build your website by submitting all milestones. (see below
 
-*	__Use HTML to correctly structure the DOM.__ 
-	*	Use HTML5 structural elements (header, footer, nav, footer).
-	*	Demonstrates correct use of classes and IDs. Use classes for identifying a type of element, and IDs for identifying a specific unique element on the page.
-	
-	*	Selects appropriate tags to markup content.
-	
-*	__Styled with CSS__
-	*	Demonstrate apply fonts, color to a page.
-	
-	*	Demonstrate use floats and the box model.
-	
-*	__Interactive__
-	*	Make use of JavaScript/jQuery events to add interactivity to the page. 
+Use HTML to correctly structure the DOM	
+*	Use HTML5 structural elements (header, footer, nav, footer).
+*	Demonstrates correct use of classes and IDs. 
+*	Use classes for identifying a type of element, and IDs for identifying a specific unique element on the page.
+*	Selects appropriate tags to markup content.
 
+Use CSS to style the page
+*	Demonstrate apply fonts, color to a page.
+*	Demonstrate use floats and the box model.
+
+Use JavaScript/jQuery to make the page interactive	
+*	Make use of JavaScript/jQuery events to add interactivity to the page.
 
 ##MILESTONES
 
