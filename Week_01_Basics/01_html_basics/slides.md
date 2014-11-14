@@ -1,27 +1,77 @@
 ![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
 
-#FEWD - HTML BASICS 
+#FEWD - HTML BASICS
 
-###Instructor Name
+```
+<p>Hello World</p>
+```
 
-Instructors current role.
 
 ---
 
 
 ##Agenda
 
-*	HTML Tags & CSS Selectors Review
-*	Structure Reading w/ Understanding
-*	External Style Sheets
+* Introductions
+* What to expect?
+*	HTML Tags
+*	Let's make it pretty (stylesheets)
 *	Lab Time
 
 ---
 
 
+## Instructor
 
-##HTML Tags & CSS Selectors Review
+How do you do? I'm Rohan.
 
+- Email: rohan.dhaimade@gmail.com
+- Website: http://blog.thelandofrohan.com/?
+- Twitter: @riderofrohan0
+
+TODO: Add an image of Rohan, Rohan (country), and Rohan (avatar)
+
+---
+
+## TA
+
+How do you do? I'm Jade
+
+- Email: Unknown
+- Website : Unknown
+- Twitter : Unknown
+
+TOOD: Add an image of Jade, Jade (stone), Jade (jackie chan adventures character)
+
+---
+
+## Expectations
+
+
+---
+
+## Schoology
+
+* We'll post files for class there.
+* You'll turn in homework to Schoology as zip files or email them to the instructional team.
+* We'll post resources and links too, as well as announcements.
+
+---
+
+## Objectives for Class
+
+- Read HTML and CSS
+- Manipulate Javascript and jQuery to do your bidding.
+- Create a beautiful multi-page website.
+- You'll learn the basic workflow when someone says to you "Hey, can you build a website for me?"
+
+---
+
+## What you **won't** learn?
+
+- Build a wordpress equivalent
+- Angular.js and those fancy frameworks
+- Backend web development
 
 ---
 
@@ -93,36 +143,61 @@ Text Elements
 
 ##Content Tags
 
-Unordered list 
+Unordered list
+
 ```<ul>``` ```</ul>```
 
---
+<br>
+In other words, a bulleted list
 
-##Content Tags
-
-Unordered list item 
-`
-	```<li>```First item```</li>```
-    ```<li>```Next item```</li>```
-
+- Item 1
+- Item 2
 
 --
 
 ##Content Tags
 
-links 
+Unordered list item. Individual list items
+
+
+	<li>First item</li>
+    <li>Next item</li>
+
+
+--
+
+##Content Tags
+
+Links
+
  ```<a href="Link">```First item```</a>```
 
+
+If you want a link to open in a new window or tab, you add ```target="_blank"```.
+
+```<a href="link" target="_blank">Item</a>```
+
+--
+
+##Content Tags
+
+Images
+
+To put an image on an HTML page, you use the ```<img>``` tag:
+
+```<img src="images/image.jpg">```
+
+The src is the path to the image.
 
 --
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
-##General Assembly Press Release
+##Baker's Bakery
 
 ---
 
 
-##External STyle Sheets 
+##External Style Sheets
 
 ---
 
@@ -134,8 +209,6 @@ links 
 
 ## Homework
 
-*	Create a resume website
-*	Watch a video on the Internet about the Internet
-*	Read about CSS Colors
+*	Watch a video on the Internet about the Internet http://www.youtube.com/watch?v=7_LPdttKXPc
 
 ---
