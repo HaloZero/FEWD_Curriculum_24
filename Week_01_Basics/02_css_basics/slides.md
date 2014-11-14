@@ -2,26 +2,30 @@
 
 #FEWD - CSS Basics
 
-###Instructor Name
-
-Instructors current role.
+Let's make it beautiful
 
 ---
 
-
 ##Agenda
 
-*	HTML & External Style Sheet Review
-*	Building A Simple Web Page
-	*	Images
-	*	Nav
-	*	Colors
-	*	Fonts
-	*	Linking To Other Pages
+*	HTML Basics Review
+*	Images
+* Intro to CSS
 *	Lab Time
 
 ---
 
+##Objective
+
+- Predict image paths and apply relative paths to <img> and <a> tags.
+- Differentiate between basic web color principles: RGB, RGBA, hexadecimal color, HSL.
+- Describe the basic structure of a web page
+
+
+
+
+
+---
 ##HTML Basics Review
 
 ---
@@ -31,7 +35,7 @@ Instructors current role.
 
 ---
 
-##Building Websites`
+##Building Websites
 
 ---
 
@@ -56,26 +60,26 @@ How would you write the src?
 ![](../../img/unit_1/folder_structure.png)
 
 *	There are different approaches to specifying an image location
-			
+
 ---
 
 ##Images
 
 *	Inside ```webroot```, a relative path could be used:
-	
+
 ####```<img src="images/logo.png">```
 
 ---
 
 ##Images
 Relative Path
-	
+
 ![Parent Folder Structure](../../img/unit_1/folder_structure_parentDirectory.png)
 
 Note:
 
 * Given this folder structure the same image would be ```<img src="../images/logo.png">``
-* 
+*
 Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
 
@@ -89,9 +93,9 @@ Absolute Path
 
 Note:
 	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
-	
+
 The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
-	
+
 The downside is that the path only works if the project is stored to a proper location for serving.
 
 
@@ -102,7 +106,7 @@ The downside is that the path only works if the project is stored to a proper lo
 Full URL
 
 		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">```
-		
+
 Note:
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
 
@@ -120,7 +124,7 @@ A piece of text to be used in lieu of the image when the image is unavailable
 
 Using `alt` attributes has the added benefit of giving search engines more linguistic context about the image as it is used on your page.
 
-Reasons an image may not load: 
+Reasons an image may not load:
 
 *	There was a connection error, the browser didn't download the image.
 
@@ -175,6 +179,15 @@ No transparency, can be stored at different compression levels with varying amou
 
 ##CSS
 
+If HTML is the house, the css is the decorations and styling. The paint
+
+
+
+---
+
+
+##CSS
+
 ![](../../img/unit_1/css_syntax.png)
 
 ---
@@ -202,7 +215,7 @@ Using a separate CSS file
 Its best practice to put CSS in its own file and link to it from the `<head>`.
 
 ```<link rel="stylesheet" href="style.css">```
-	
+
 Note:
 "The `link` tag needs two attributes: `rel="stylesheet"` and an `href` attribute.
 
@@ -322,7 +335,7 @@ Note:
 
 These are used less frequently, but are handy for basic colors like `black` and `white`. There are several
 
-See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802(v=vs.85).aspx) for more:
+See [here](http://www.crockford.com/wrrrld/color.html) for more:
 
 ---
 
@@ -344,7 +357,7 @@ Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#F
 ####```rgb(0,0,0)```
 
 *	The first value is red, the second green, the third blue.
- 
+
 *	Each value can range from 0 to 255, which expresses the same number of color steps as 00 to FF in base-16.
 
 
@@ -398,6 +411,31 @@ As an example, red is ```hsl(0, 100%, 50%)```, which is equivalent to ```#FF0000
 
 Note that changing the opacity allows whatever colors are "behind" an element to shine through, which can alter the visible color significantly, especially at lower opacities.
 
+---
+
+##Fonts
+
+There is a set of basic fonts that can be read across just about all browsers.
+
+To declare a font for a webpage, you usually assign it to the ```<body``` tag using the ```font-family``` attribute, like this:
+
+```
+body {
+    font-family: "Georgia", serif;
+}
+```
+
+---
+
+##Web Safe Fonts
+
+There are about 12 fonts that can be safely declared in the font-family attribute because they're available across all browsers. You can read more about that here:
+
+http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+You can also use Google Fonts:
+
+http://google.com/fonts
 
 ---
 
@@ -405,7 +443,10 @@ Note that changing the opacity allows whatever colors are "behind" an element to
 ##CSS
 ###Review
 
-Add a couple points here wit hthe major take aways foe the basics of CSS.
+- With css we can determine the basic looks for a website: font, colors, font weight.
+- CSS is best called in a separate file
+- Color can be called in one of three ways: the name of the color, a hex code (like #000000), or RGB/RGBa.
+- There are a few safe font families that can be declared for a website. These are often used as body text.
 
 
 ---
