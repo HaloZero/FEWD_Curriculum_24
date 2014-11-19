@@ -25,9 +25,11 @@
 
 How do you do? I'm Rohan.
 
+- Full Name: Rohan Dhaimade
 - Email: rohan.dhaimade@gmail.com
-- Website: http://blog.thelandofrohan.com/?
+- Website: http://blog.thelandofrohan.com/
 - Twitter: @riderofrohan0
+- Github: @HaloZero
 
 TODO: Add an image of Rohan, Rohan (country), and Rohan (avatar)
 
@@ -37,10 +39,12 @@ TODO: Add an image of Rohan, Rohan (country), and Rohan (avatar)
 
 How do you do? I'm Jade
 
-- Email: Unknown
-- Website : Unknown
-- Twitter : Unknown
-
+- Full Name: Jade
+- Email:  plusjade@gmail.com
+- Website : plusjade.com
+- Twitter : plusjade
+- github: plusjade
+-
 TOOD: Add an image of Jade, Jade (stone), Jade (jackie chan adventures character)
 
 ---
@@ -55,12 +59,13 @@ TOOD: Add an image of Jade, Jade (stone), Jade (jackie chan adventures character
 * We'll post files for class there.
 * You'll turn in homework to Schoology as zip files or email them to the instructional team.
 * We'll post resources and links too, as well as announcements.
+* We're going to use this ?Dropbox? app jade created but since it's still an experiment, we'll have it on both.
 
 ---
 
 ## Objectives for Class
 
-- Read HTML and CSS
+- Work with HTML and CSS
 - Manipulate Javascript and jQuery to do your bidding.
 - Create a beautiful multi-page website.
 - You'll learn the basic workflow when someone says to you "Hey, can you build a website for me?"
@@ -75,6 +80,13 @@ TOOD: Add an image of Jade, Jade (stone), Jade (jackie chan adventures character
 
 ---
 
+## What's the benefit of GA?
+
+- Our course will change depending on what YOU want.
+- You have our smart instructors & TAs to constantly help you. Use us! Study halls are awesome. Ask me questions.
+- Teach you to empower yourself to look up your own answers
+
+---
 
 ##HTML Basics
 
@@ -89,17 +101,11 @@ The Doctype tells you if the page is HTML5 ready.
 
 ```<!DOCTYPE html>```
 
-
-##HTML HISTORY
-
-![HTML History](../../img/unit_1/Timeline_of_web_technologies.jpg)
-
-Note:
-image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
-
+```
+<header> <footer> <nav> <section> <aside> <article>
+```
 
 ---
-
 
 ##HTML Syntax
 
@@ -159,9 +165,12 @@ In other words, a bulleted list
 
 Unordered list item. Individual list items
 
-
-	<li>First item</li>
-    <li>Next item</li>
+```
+  <ul>
+	  <li>First item</li>
+      <li>Next item</li>
+  </ul>
+```
 
 
 --
@@ -170,12 +179,13 @@ Unordered list item. Individual list items
 
 Links
 
- ```<a href="Link">```First item```</a>```
+ ```<a href="www.google.com">```Google```</a>```
 
 
 If you want a link to open in a new window or tab, you add ```target="_blank"```.
 
-```<a href="link" target="_blank">Item</a>```
+```<a href="www.google.com" target="_blank">Google</a>```
+
 
 --
 
@@ -199,8 +209,46 @@ The src is the path to the image.
 
 ##External Style Sheets
 
+External = Linked CSS
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
 ---
 
+##Basic CSS
+Body Styling Properties
+
+* background-color
+
+```
+body{
+    background-color:whitesmoke;
+}
+```
+NOTE: CSS Color Name reference list http://www.w3schools.com/cssref/css_colornames.asp
+
+---
+
+##Basic CSS
+Text Styling Properties
+
+* color
+* font-family
+* font-weight
+
+```
+h1{
+    color:black;
+    font-family: arial;
+    font-weight:bold;
+    font-size:22px;
+}
+```
+NOTE: Web Safe font list http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Cookie Recipe

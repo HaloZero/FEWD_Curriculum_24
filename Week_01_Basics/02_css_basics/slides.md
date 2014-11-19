@@ -10,7 +10,7 @@ Let's make it beautiful
 
 *	HTML Basics Review
 *	Images
-* Intro to CSS
+*     Intro to CSS
 *	Lab Time
 
 ---
@@ -19,11 +19,7 @@ Let's make it beautiful
 
 - Predict image paths and apply relative paths to <img> and <a> tags.
 - Differentiate between basic web color principles: RGB, RGBA, hexadecimal color, HSL.
-- Describe the basic structure of a web page
-
-
-
-
+- Describe the basic structure requirements of a web page
 
 ---
 ##HTML Basics Review
