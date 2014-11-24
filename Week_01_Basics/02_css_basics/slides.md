@@ -6,28 +6,20 @@ Let's make it beautiful
 
 ---
 
-##Agenda
-
-*	HTML Basics Review
-*	Images
-*     Intro to CSS
-*	Lab Time
-
----
-
 ##Objective
 
-- Predict image paths and apply relative paths to <img> and <a> tags.
+- Predict image paths and apply relative paths to ```<img>``` and ```<a>``` tags.
 - Differentiate between basic web color principles: RGB, RGBA, hexadecimal color, HSL.
 - Describe the basic structure requirements of a web page
 
 ---
+
 ##HTML Basics Review
 
 ---
 
 ![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
-##What Tag Is It?
+##About page
 
 ---
 
