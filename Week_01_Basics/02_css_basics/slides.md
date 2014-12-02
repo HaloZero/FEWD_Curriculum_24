@@ -2,38 +2,32 @@
 
 #FEWD - CSS Basics
 
-###Instructor Name
-
-Instructors current role.
+Let's make it beautiful
 
 ---
 
+##Objective
 
-##Agenda
-
-*	HTML Basics Review
-*	Images
-*	Intro To CSS
-	*	Link Tag
-	*	Colors
-	*	Fonts
-*	Linking To Other Pages
-*	Lab Time
+- Predict image paths and apply relative paths to ```<img>``` and ```<a>``` tags.
+- Differentiate between basic web color principles: RGB, RGBA, hexadecimal color, HSL.
+- Describe the basic structure requirements of a web page
 
 ---
-
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
-##What Tag Is It?
-
----
-
 
 ##HTML Basics Review
 
 ---
 
+![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+##About page
 
-##Html Basics - Images
+---
+
+##Building Websites
+
+---
+
+##Images
 
 *	Images are placed using the ```<img>``` tag.
 
@@ -41,84 +35,84 @@ Instructors current role.
 
 ---
 
-##Html Basics - Images
+##Images
 
-The `img` tag requires a `src` attribute, which tells the browser where to find the image to be placed.
+The `img` tag requires a `src` attribute, which tells the browser where to find the image.
 
 ---
 
-##Html Basics - Images
+##Images
 
 How would you write the src?
 
 ![](../../img/unit_1/folder_structure.png)
 
 *	There are different approaches to specifying an image location
-			
+
 ---
 
-##Html Basics - Images
+##Images
 
 *	Inside ```webroot```, a relative path could be used:
-	
+
 ####```<img src="images/logo.png">```
 
 ---
 
-##Html Basics - Images
+##Images
 Relative Path
-	
+
 ![Parent Folder Structure](../../img/unit_1/folder_structure_parentDirectory.png)
 
 Note:
 
 * Given this folder structure the same image would be ```<img src="../images/logo.png">``
-* 
+*
 Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
 
 ---
 
-##Html Basics - Images
+##Images
 
 Absolute Path
 
 ```<img src="/images/logo.png">```
 
 Note:
-Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
+	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
 
 The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
 
 The downside is that the path only works if the project is stored to a proper location for serving.
 
+
 ---
 
 
-##Html Basics - Images
+##HTML Basics - Images
 Full URL
 
-		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
-		
+		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">```
+
 Note:
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
 
 
 ---
 
-##Html Basics - Images
+##HTML Basics - Images
 
 alt attribute
 
 	<img src="puppy.jpg" alt="My cute puppy">
 
 Note:
-
 A piece of text to be used in lieu of the image when the image is unavailable
 
 Using `alt` attributes has the added benefit of giving search engines more linguistic context about the image as it is used on your page.
 
-Reasons an image may not load: 
+Reasons an image may not load:
 
 *	There was a connection error, the browser didn't download the image.
 
@@ -128,9 +122,10 @@ Reasons an image may not load:
 
 *	The user is using a screen reader because she has low vision, which will read the `alt` text aloud or present it through a braille reader.
 
+
 ---
 
-##Html Basics - Images
+##HTML Basics - Images
 
 There are three main image file formats:
 
@@ -142,7 +137,6 @@ There are three main image file formats:
 
 Note:
 Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
-
 
 ---
 
@@ -162,6 +156,7 @@ Supports transparency and semi-transparency, great for logos, icons, and repeati
 Note:
 No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
 
+
 ---
 
 
@@ -169,6 +164,15 @@ No transparency, can be stored at different compression levels with varying amou
 ##About Me
 
 ---
+
+##CSS
+
+If HTML is the house, the css is the decorations and styling. The paint
+
+
+
+---
+
 
 ##CSS
 
@@ -189,6 +193,7 @@ Where does CSS go?
 Note:
 CSS should go in a separate file. We're going to start by placing them in the head for convenience and to learn the syntax. We'll show inline styles at the end, just to demonstrate.
 
+
 ---
 
 ##CSS
@@ -198,11 +203,12 @@ Using a separate CSS file
 Its best practice to put CSS in its own file and link to it from the `<head>`.
 
 ```<link rel="stylesheet" href="style.css">```
-	
+
 Note:
 "The `link` tag needs two attributes: `rel="stylesheet"` and an `href` attribute.
 
 The `href` attribute value works very similarly to linking to an image, or to another page.
+
 
 ---
 
@@ -261,6 +267,7 @@ Every declaration is a **property** followed by a **value**, separated by a colo
 
 In this declaration, we are setting the `color` **property** to the **value** `red`.
 
+
 ---
 
 
@@ -309,7 +316,6 @@ Note:
 * rgba
 * hsla
 
-
 ---
 
 ##Color
@@ -317,7 +323,7 @@ Note:
 
 These are used less frequently, but are handy for basic colors like `black` and `white`. There are several
 
-See [here](http://msdn.microsoft.com/en-us/library/ie/aa358802.aspx) for more
+See [here](http://www.crockford.com/wrrrld/color.html) for more:
 
 ---
 
@@ -331,7 +337,6 @@ Note:
 
 Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#FFFFFF` (white) can be expressed more succinctly as `#FFF`, and `#000000` (black) can be expressed as `#000`. `#FA6198`, however, cannot be abbreviated without altering the color.
 
-
 ---
 
 ##Color
@@ -340,7 +345,7 @@ Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#F
 ####```rgb(0,0,0)```
 
 *	The first value is red, the second green, the third blue.
- 
+
 *	Each value can range from 0 to 255, which expresses the same number of color steps as 00 to FF in base-16.
 
 
@@ -350,6 +355,7 @@ FF in base-16 is equivalent to 255 in base-10.
 In RGB, `rgb(0,0,0)` is black, `rgb(255,255,255)` is white, `rgb(255,0,0)` is red, etc.
 
 White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do just as well.
+</aside>
 
 ---
 
@@ -395,11 +401,40 @@ Note that changing the opacity allows whatever colors are "behind" an element to
 
 ---
 
+##Fonts
+
+There is a set of basic fonts that can be read across just about all browsers.
+
+To declare a font for a webpage, you usually assign it to the ```<body``` tag using the ```font-family``` attribute, like this:
+
+```
+body {
+    font-family: "Georgia", serif;
+}
+```
+
+---
+
+##Web Safe Fonts
+
+There are about 12 fonts that can be safely declared in the font-family attribute because they're available across all browsers. You can read more about that here:
+
+http://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+You can also use Google Fonts:
+
+http://google.com/fonts
+
+---
+
 
 ##CSS
 ###Review
 
-Add a couple points here wit hthe major take aways foe the basics of CSS.
+- With css we can determine the basic looks for a website: font, colors, font weight.
+- CSS is best called in a separate file
+- Color can be called in one of three ways: the name of the color, a hex code (like #000000), or RGB/RGBa.
+- There are a few safe font families that can be declared for a website. These are often used as body text.
 
 
 ---

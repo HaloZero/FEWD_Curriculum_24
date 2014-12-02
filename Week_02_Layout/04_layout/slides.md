@@ -12,7 +12,7 @@ Instructors current role.
 ##Agenda
 
 *	Review
-*	Classes Ids
+*	Divs, Classes and IDs
 *	HTML5 Structural Elements
 *	Floats
 *	Lab Time
@@ -22,6 +22,12 @@ Instructors current role.
 ##Review
 
 What would you like to review?
+
+---
+
+##Di
+
+What is a Div?
 
 ---
 
@@ -99,16 +105,8 @@ Image from Chris Coyier's CSS-Tricks
 
 ---
 
-##Div Up The Content
-
-*	When Do I need a Div, Section or Article?
-
-*	When do I need a class or id?
-
----
-
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Fashion Blog
+##Layout Challenge
 
 ---
