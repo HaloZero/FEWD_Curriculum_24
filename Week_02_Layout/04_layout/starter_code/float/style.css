@@ -1,0 +1,26 @@
+.left {
+  /*float: left;*/
+  background-color: red;
+}
+
+.right {
+  /*float: right;*/
+  background-color: green;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+body {
+  font-size: 3em;
+}
+
+.container {
+  border: 10px solid black;
+}
+
+.left, .right {
+  padding: 20px;
+}

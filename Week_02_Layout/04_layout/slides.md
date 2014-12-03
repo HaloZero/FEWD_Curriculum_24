@@ -2,9 +2,7 @@
 
 #FEWD - Layout
 
-###Instructor Name
-
-Instructors current role.
+###Rohan Dhaimade
 
 ---
 
@@ -12,7 +10,6 @@ Instructors current role.
 ##Agenda
 
 *	Review
-*	Divs, Classes and IDs
 *	HTML5 Structural Elements
 *	Floats
 *	Lab Time
@@ -21,59 +18,57 @@ Instructors current role.
 
 ##Review
 
-What would you like to review?
+Nested Selectors
+
 
 ---
 
-##Di
+##Selectors
 
-What is a Div?
+Go until exercise 11, after that it's more advanced selectors
 
----
-
-
-##class & id
-
-With classes and ids we can target specific elements on a page, so we can manipulate it uniquely.
+http://flukeout.github.io/
 
 ---
 
-##class & id
+##CSS Inheritance
 
-![](../../img/unit_1/tags_attributes.png)
+Some properties, by default will inherit from their ancestors or parent elements. Apply a font to the body, will give every element a font to that body.
 
----
+Other properties that inherit:
 
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##class & id
-
----
-
-##class & id
-
-####IDs are unique
-
-####Classes are not unique
+<ul>
+<li>color</li>
+<li>font-weight</li>
+<li>font-size</li>
+<li>background-color</li>
+<li>Usually any properties involving the font/text/color of things is inherited.</li>
 
 ---
 
-##class & id
+##CSS Inheritance
 
-When should you use them?
-
----
-
-##class & id
-
-How to __select__ classes in CSS
+What color will each of these be?
 
 ```
-.className
+<h3>
+	<a>Link 1</a>
+</h3>
+
+<a>Link 2</a>
+
+<h3>Link 3</a>
 ```
 
+if these are the css rules:
 ```
-#idName
+a {
+	color: green;
+}
+
+h3 {
+	color: orange;
+}
 ```
 
 ---
@@ -91,12 +86,40 @@ Adding structure to HTML elements that are related to content layout.
 
 ##Floats
 
-Float is a CSS positioning property, used to layout a web page. 
+Float is a CSS positioning property, used to layout a web page.
 
 ![](http://css-tricks.com/wp-content/csstricks-uploads/web-layout.png)
 
 Note:
 Image from Chris Coyier's CSS-Tricks
+
+
+---
+
+##Floats
+
+When you float something, you turn it into an __inline__ element. So it will become as big as it needs to be and won't cause new lines anymore.
+
+---
+
+##The Clear Property
+
+clear has four properties: left, right, both, or none
+
+It tells any elements floated to clear way and create a new line for any other floated elements.
+
+---
+
+##Clearfix
+
+clearfix is a bit of misnomer. What it does it tells a container element to accomodate the height/width of all the floated elements inside of it.
+
+```
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+```
 
 ---
 
