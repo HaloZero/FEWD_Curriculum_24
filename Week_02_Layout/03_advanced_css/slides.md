@@ -2,9 +2,9 @@
 
 #FEWD - Box Model & More CSS
 
-###Instructor Name
+###Rohan Dhaimade
 
-Instructors current role.
+Ooh fancy boxes.
 
 ---
 
@@ -177,7 +177,7 @@ __Inline elements__ play nice with other content. They tend to sit within block 
 ```
 
 ```
-  h3 span {
+  h1 span {
     font-size: 2em;
     color: red;
   }

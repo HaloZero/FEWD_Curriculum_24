@@ -1,10 +1,8 @@
 ![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
 
-#FEWD - HTML BASICS 
+#FEWD - HTML BASICS
 
-###Instructor Name
-
-Instructors current role.
+###Rohan Dhaimade
 
 ---
 
@@ -38,7 +36,7 @@ Client-Side
 
 *	HTML
 *	CSS
-*	JavaScript	
+*	JavaScript
 
 ---
 
