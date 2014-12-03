@@ -16,10 +16,18 @@
 
 ---
 
+## Objectives ##
+
+- Predict css styling that rely on inheritance
+- Use HTML structural elements
+- Utilize reset css
+- Organize and use float for layout
+
+---
+
 ##Review
 
 Nested Selectors
-
 
 ---
 
@@ -83,6 +91,20 @@ Adding structure to HTML elements that are related to content layout.
 
 ---
 
+###Reset CSS
+
+CSS Resets are used to reduce browser inconsistencies in things like line-height, font-sizes, and margins.
+
+Usually it's best to keep your reset css in a separate file and link it BEFORE your css.
+
+```
+<link rel="stylesheet" type="text/css" href="reset.css">
+```
+
+http://meyerweb.com/eric/tools/css/reset/
+
+
+---
 
 ##Floats
 
@@ -128,6 +150,9 @@ clearfix is a bit of misnomer. What it does it tells a container element to acco
 
 ---
 
+
+
+---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Layout Challenge
