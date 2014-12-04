@@ -1,0 +1,9 @@
+I want you to be able to create a multiple column layout. It gives you instructions on how to build it, but you should test your comprehension about it.
+
+http://css.maxdesign.com.au/floatutorial/tutorial0801.htm
+
+http://css.maxdesign.com.au/floatutorial/tutorial0901.htm
+
+Finally, if you want to get that extra work. I want you to try building these layouts.
+
+https://dl.dropboxusercontent.com/u/3565593/FEWD%202014.5.12%20-%202014.7.21/layouts.pdf
