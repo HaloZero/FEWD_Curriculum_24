@@ -65,7 +65,7 @@ What color will each of these be?
 
 <a>Link 2</a>
 
-<h3>Link 3</a>
+<h3>Link 3</h3>
 ```
 
 if these are the css rules:
