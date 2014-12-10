@@ -1,16 +1,20 @@
 .left {
-  /*float: left;*/
+  float: left;
   background-color: red;
 }
 
 .right {
-  /*float: right;*/
+  float: right;
   background-color: green;
 }
 
 .clearfix {
   overflow: auto;
   zoom: 1;
+}
+
+footer {
+  clear: both;
 }
 
 body {
