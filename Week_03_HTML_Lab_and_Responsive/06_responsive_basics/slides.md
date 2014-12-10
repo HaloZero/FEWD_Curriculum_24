@@ -41,13 +41,23 @@ Question: What is responsive design?
 
 A: What is a design that responds differently to screen sizes in order to provide the best user experience?
 
---- 
+---
 
-## What makes it responsive?
+##Fixed Layout
 
-There are two design patterns __adaptive designs__ are designs that define pre-fixed sizes. So you create three different sets of CSS for mobile phones, tablets, and then desktop browsers.
+*	Used up to this point
+*	Relies on a container of fixed width
+*	Usually 960px or 980px
 
-__Responsive Designs__ are fluid, they will change according to the width/height of the screen rather than the device-type/screen-type. 
+---
+
+##Responsive Layout
+
+*	Different styles for different screen widths
+*	Uses an elastic/fluid layout
+*	Sized in percentages
+*	Elastic
+*	Sized in ems
 
 ---
 
@@ -61,8 +71,8 @@ The use of mobile devices - phones and tablets - has risen exponentially in the 
 
 Fixed sites
 
-* http://www.ups.com/
-* http://www.whitehouse.gov/
+* [UPS](http://www.ups.com/)
+* [Whitehouse.gov](http://www.whitehouse.gov/)
 
 ---
 
@@ -70,10 +80,10 @@ Fixed sites
 
 Responsive sites
 
-* https://generalassemb.ly
-* https://www.dwolla.com/
-* http://www.sweethatclub.org/
-* http://www.sasquatchfestival.com/
+* [General Assembly](https://generalassemb.ly)
+* [Dwolla](https://www.dwolla.com/)
+* [Sweet Hat Club](http://www.sweethatclub.org/)
+* [Sasquatch Festival](http://www.sasquatchfestival.com/)
 
 --- 
 
@@ -87,85 +97,7 @@ There are a few techniques used in responsive design:
 
 ---
 
-
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
-##Boxes
-
----
-
-
-#Responsive Layout
-
----
-
-
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Responsive Sites
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Mobile Boxes
-
----
-
-
-
-##Fixed vs Responsive
-
-Checkout these __Fixed__ sites
-
-*	[UPS.com](http://www.ups.com)
-
-*	[Boston.com](http://www.boston.com)
-
-*	[Google.com](http://www.google.com)
-
-*	[Getaround.com](http://www.getaround.com)
-
-
-Checkout these __Responsive__ Sites
-
-*	[Generalassemb.ly](http://www.generalassemb.ly)
-
-*	[Dwolla.com](http://www.dwolla.com)
-
-*	[Sweethatclub.com](http://www.sweethatclub.com)
-
-*	[Relayrides.com](http://www.relayrides.com)
-
----
-
-##Fixed Layout
-
-*	Used up to this point
-
-*	Relies on a container of fixed width
-
-*	Usually 960px or 980px
-
----
-
-##Responsive Layout
-
-*	Different styles for different screen widths
-
-*	Uses an elastic/fluid layout
-
-*	Fluid
-
-*	Sized in percentages
-
-*	Elastic
-
-*	Sized in ems
-
----
-
-
-##EMS vs REMs - Needs more clarity
+##EMS vs REMs
 
 __EM__
 Sized based on the width of the letter “m” 
