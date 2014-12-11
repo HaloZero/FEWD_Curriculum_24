@@ -1,10 +1,8 @@
 .left {
-  float: left;
   background-color: red;
 }
 
 .right {
-  float: right;
   background-color: green;
 }
 
@@ -14,9 +12,9 @@
 }
 
 footer {
-  clear: both;
+  background-color: orange;
+  color: white;
 }
-
 body {
   font-size: 3em;
 }
