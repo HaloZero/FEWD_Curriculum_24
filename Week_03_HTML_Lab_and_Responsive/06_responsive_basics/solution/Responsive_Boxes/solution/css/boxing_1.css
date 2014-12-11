@@ -1,9 +1,9 @@
 *{
 	width:100%;
 	border:1px solid black;
-	-moz-box-sizing: border-box; 
-     -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
 }
 #container,ul,nav,body,html{
 	border:none;
@@ -16,6 +16,7 @@
      line-height: 0;
      height: 0;
 }
+
 ul{
 	padding:0;
 	margin:0;
