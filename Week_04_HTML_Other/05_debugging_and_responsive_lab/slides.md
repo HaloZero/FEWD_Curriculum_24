@@ -14,7 +14,6 @@ Why isn't this working?
 * Review
 * Vocabulary
 * Debugging
-* Overriding CSS
 * Responsive Lab
 
 ---
@@ -164,8 +163,59 @@ div.container a
 ### W3C Validator Service ###
 http://validator.w3.org/#validate_by_input
 
+<br>
 
 ###Chrome Extension ###
 https://chrome.google.com/webstore/detail/validity/bbicmjjbohdfglopkidebfccilipgeif?hl=en-GB
 
 Doesn't work on local pages
+
+---
+
+## CSS Validator
+
+http://csslint.net/
+
+---
+
+## Overriding CSS
+
+```
+<div id="big-list-of-pets">
+  <div class="pet">
+    <span>cat</span>
+  </div>
+  <div class="pet">
+    <span>dog</span>
+  </div>
+</div>
+```
+
+Id selectors: __#big-list-of-pets__
+
+Class selectors: __.pet__
+
+Element selectors: __span__
+
+---
+
+##CSS
+
+The Rules:
+
+* Id selectors = 100
+* Class selectors = 10
+* Element selectors = 1
+* In the case of a tie, last one wins
+* Doesn't matter if they are separate, or nested, or anyting else. It just connects.
+
+Examples:
+```
+#hello = 100
+#hello div = 101
+#hello .big = 110
+#hello div.big = ?
+#hello div div div = ?
+body #hello = ?
+```
+
