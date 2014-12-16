@@ -36,9 +36,12 @@ nav li{
 	float:left;
 	margin:10px;
 }
-nav li:first-child{
+
+nav .last-button {
 	float:right;
+  display: none;
 }
+
 .line{
 	height:7px;
 	width:60%;
@@ -51,7 +54,7 @@ header+div{
 	height:400px;
 	margin:20px 0;
 }
-#container>div+div,footer>div{
+#container div+div,footer div{
 	width:30%;
 	height:200px;
 	float:left;
@@ -61,3 +64,16 @@ header+div{
 footer{
 	clear:left;
 }
+
+nav li{
+    display:none;
+  }
+  nav li:first-child{
+    display:block;
+    width:30%;
+  }
+
+  /*Main and footer*/
+  #container>div+div,footer>div{
+    width:97%;/*100%-3% margins*/
+  }

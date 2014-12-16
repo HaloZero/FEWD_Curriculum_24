@@ -16,6 +16,7 @@
      line-height: 0;
      height: 0;
 }
+
 ul{
 	padding:0;
 	margin:0;
@@ -73,6 +74,6 @@ nav li:first-child{
 }
 
 /*Main and footer*/
-#container>div+div,footer>div{
+#container div+div,footer div{
 	width:97%;/*100%-3% margins*/
 }
