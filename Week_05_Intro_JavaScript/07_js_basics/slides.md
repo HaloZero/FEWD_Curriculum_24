@@ -2,25 +2,31 @@
 
 #FEWD - JS Basics
 
-###Instructor Name
+###Rohan
 
-Instructors current role.
+Any sufficiently advanced technology is indistinguishable from magic.
 
 ---
 
-
 ##Agenda
 
-*	JS Basics (Syntax)
+*	What does JS do?
+* JS Syntax
 *	Variables
 *	Arithmetic
 *	Conditionals
 
 ---
 
+Arthur C Clarke:
+
+'Any sufficiently advanced technology is indistinguishable from magic'
+
+---
+
 ##JS Basics Syntax
 
-__Syntax:__ Spelling and grammar rules of a programming language. 
+__Syntax:__ Spelling and grammar rules of a programming language.
 
 
 Note:
@@ -48,48 +54,40 @@ Like with any language, there are formal rules around how to write it. This is t
 
 What are variables?
 
----
+* Programs often work with values, that we want to save and keep.
+* The entity we use to store the value is called a variable.
 
+![GeneralAssemb.ly](../img/var-syntax.png)
+
+---
 
 ##Variables
 
-*	We can tell our program to remember values for us to use later on. 
+You can do three things with variables:
 
-*	The action of saving a value to memory is called assignment
+* __Declaring__ variables means creating new ones.
 
-*	The entity we use to store the value is called a variable
+```
+	var favoriteMuppet;
+```
 
----
+* __Assigning__ variables means assigning a variable a new value;
 
+```
+	favoriteMuppet = 'Fozzie Bear'
+```
 
-##Variables
+* __Accessing__ a variable is using the value in that variable later
 
-*	The action of getting the value from a variable is called accessing the variable
+```
+	console.log("Rohan's favorite muppet is " + favoriteMuppet);
+```
 
-*	We will use all the above techniques to store values into variables, and generate new values using existing variables
+You can combine declaring and assignment into one statement
 
----
-
-##Variables Declaration
-
-Declaration: ```var age;```
-
-Assignment: ```age = 21;```
-
-Both at the same time: ```var age = 21;```
-
----
-
-##Variable Re-Assignment
-
-```var name = "Jo";```
-
-```name = Amir;```
-
-Note:
-
-name is now Amir.
-
+```
+	var favoriteMuppet = 'Gonzo';
+```
 
 ---
 
@@ -99,11 +97,13 @@ name is now Amir.
 
 *	If they contain multiple words, subsequent words start with an upper case letter.
 
-		var numberOfStudents = 10;
+```
+	var numberOfStudents = 10;
+```
 
 ---
 
-##Variables & Data Types 
+##Variables & Data Types
 
 What can you store in a variables?
 
@@ -113,7 +113,7 @@ Note:
 ##Data Types
 
 The types of different values we support include:
-	
+
 *	__String__ text
 *	__int__, __float__ numbers
 *	__Boolean__ true or false
@@ -226,7 +226,7 @@ Can perform arithmetic on number data types
 
 It's either TRUE or FALSE (like booleans)
 
-If you are greater than 18 
+If you are greater than 18
 you are an adult
 
 	if (age > 18){
@@ -258,7 +258,7 @@ Are two things equal?
 ##Conditional Syntax
 
 ```
-if(condition is true) {  
+if(condition is true) {
 	//Do cool stuff
 }
 ```
@@ -272,7 +272,7 @@ if(condition is true) {
 		//Do cool stuff
 	}else{
 		//Do other cool stuff
-	}	
+	}
 ```
 
 ---
@@ -286,8 +286,8 @@ if(condition is true) {
 	} else if(topic == "JavaScript") {
 		console.log("You're still learning JavaScript");
 	} else {
-	console.log("You're learning something else");
-}
+		console.log("You're learning something else");
+	}
 ```
 
 ---
@@ -336,6 +336,9 @@ if (day == "Tuesday"  || day == "Thursday"){
 ---
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
-##Temp Converter
+##Comparison
 
 ---
+
+![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
+##Temperature Converter
