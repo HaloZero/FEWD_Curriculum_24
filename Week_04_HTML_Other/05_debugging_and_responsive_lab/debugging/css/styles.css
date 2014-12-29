@@ -1,0 +1,11 @@
+h1 {
+  color: orange;
+}
+
+.crossaint-logo {
+  background-image: url('../images/croissant.gif');
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-size: 100% 100%;
+}

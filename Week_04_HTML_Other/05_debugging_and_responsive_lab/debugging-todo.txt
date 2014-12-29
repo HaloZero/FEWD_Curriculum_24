@@ -1,0 +1,13 @@
+1) Cover how to find out if your file isn't linked
+2) Cover bad CSS rules (the name of the rule isn't not defined & has an invalid value)
+3) Cover bad markup (put a bad equal sign, show that it isn't clicking around. Show them the HTML validator)
+4) How to find out if your mark up is applying to the right element
+5) Cover some basic tips on how to disable rules/enable rules without having to refresh the page. Emphasize that this does this temporarily, it doesn't change your code.
+6) Note on how to save your page, why aren't things changing?
+7) How if all else goes wrong, how to figure out what else you could do. (css with number starting)
+
+Checklist of concerns, when your css isn't working
+1) Is my file linked?
+2) Is my CSS linked?
+3) Is my HTML valid?
+4) Are my css rules valid?

@@ -1,0 +1,10 @@
+0) Stay calm!
+1) Look for any errors in the console in the Web Inspector.
+2) Make an obvious big dramatic change allow you to check if a stylesheet is being included correctly.
+3) Check file names to make sure things are correct.
+4) Colors matter, syntax errors can be found using the colors. Underlines in sublime are also relevant. Installing a linter.
+5) Inspect element and check and uncheck properties.
+6) You can add properties to your code to check solutions.
+7) HTML validator / CSS Validator
+8) Check another browser
+9) Google: use keywords
