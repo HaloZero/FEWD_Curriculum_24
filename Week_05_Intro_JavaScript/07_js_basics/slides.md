@@ -45,7 +45,7 @@ Like with any language, there are formal rules around how to write it. This is t
 ---
 
 ![GeneralAssemb.ly](../img/icons/code_along.png)
-##JS Basics
+##Theme Switcher
 
 ---
 
