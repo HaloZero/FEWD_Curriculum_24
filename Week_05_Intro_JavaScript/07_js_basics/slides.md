@@ -4,7 +4,7 @@
 
 ###Rohan
 
-Any sufficiently advanced technology is indistinguishable from magic.
+It's time for the fun part.
 
 ---
 
@@ -24,10 +24,22 @@ Arthur C Clarke:
 
 ---
 
+##What does JS Do?
+
+JS is a programming language.
+
+It can:
+* Remember what you've done before (this is called state)
+* Do calculations (math, control flows)
+* It can help you request things from a server
+* You can create 3d games!
+
+---
+
+---
 ##JS Basics Syntax
 
 __Syntax:__ Spelling and grammar rules of a programming language.
-
 
 Note:
 Like with any language, there are formal rules around how to write it. This is the syntax.
@@ -48,7 +60,6 @@ Like with any language, there are formal rules around how to write it. This is t
 ##Theme Switcher
 
 ---
-
 
 ##Variables
 
@@ -120,11 +131,6 @@ The types of different values we support include:
 
 ---
 
-
-![GeneralAssemb.ly](../img/icons/code_along.png)
-##Score Keeper
-
----
 
 ##Strings
 
@@ -215,6 +221,10 @@ Can perform arithmetic on number data types
 
 ---
 
+![GeneralAssemb.ly](../img/icons/code_along.png)
+##Score Keeper
+
+---
 
 ##Conditionals
 
