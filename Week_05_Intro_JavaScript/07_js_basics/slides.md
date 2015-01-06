@@ -346,7 +346,7 @@ if (day == "Tuesday"  || day == "Thursday"){
 ---
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
-##Comapre That
+##Compare That
 
 ---
 
