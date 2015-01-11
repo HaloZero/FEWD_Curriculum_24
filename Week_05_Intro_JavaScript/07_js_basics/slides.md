@@ -29,12 +29,12 @@ Arthur C Clarke:
 JS is a programming language.
 
 It can:
+
 * Remember what you've done before (this is called state)
 * Do calculations (math, control flows)
 * It can help you request things from a server
+* Manipulate HTML
 * You can create 3d games!
-
----
 
 ---
 ##JS Basics Syntax
@@ -161,6 +161,28 @@ Escaping
 
 ---
 
+##Numbers
+
+Represent numerical data
+
+int:         42
+
+float:      3.14159265
+
+---
+
+##Numbers
+
+Signed
+
+int:         +6
+
+float:      -8.2
+
+Can perform arithmetic on number data types
+
+---
+
 ##Conversion: String To Number
 
 ```
@@ -191,29 +213,6 @@ Note:
 Why would you need to convert datatypes?
 
 ---
-
-##Numbers
-
-Represent numerical data
-
-int:         42
-
-float:      3.14159265
-
----
-
-##Numbers
-
-Signed
-
-int:         +6
-
-float:      -8.2
-
-Can perform arithmetic on number data types
-
----
-
 
 ##Arithmetic In JavaScript
 

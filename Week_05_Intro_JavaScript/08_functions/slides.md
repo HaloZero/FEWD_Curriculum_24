@@ -7,9 +7,30 @@ Conjunction junction, what's your function?
 
 ---
 
+##Variables
+
+What are variables?
+
+* Programs often work with values, that we want to save and keep.
+* The entity we use to store the value is called a variable.
+
+![GeneralAssemb.ly](../img/var-syntax.png)
+
+---
+
+##DOM
+
+Vocabulary __DOM__: Document Object Model
+
+You can access the HTML in JS by using:
+```
+  document
+```
+
+---
 ##Functions!
 
-As mentioned before, functions are the worker bees of the programming world. They are a nice object that you can put commands in, and you can fire these functions by calling them in a script.
+Functions are the worker bees of the programming world. They are a nice object that you can put commands in, and you can fire these functions by calling them in a script.
 
 ---
 
