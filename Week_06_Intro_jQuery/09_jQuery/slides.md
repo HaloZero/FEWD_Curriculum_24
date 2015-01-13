@@ -53,7 +53,8 @@ In other words, jQuery combines a lot of things in the background to make writin
 Adding jQuery to your website
 
 * Download the file and link it normally
-* Link to a file hosted by Google: https://developers.google.com/speed/libraries/devguide#jquery
+* Link to a file hosted by Google: http://goo.gl/uynHR8
+* Full URL: https://developers.google.com/speed/libraries/devguide#jquery
 
 
 ---
@@ -82,9 +83,54 @@ $('tag').show();
 
 When you use jQuery on a page, you usually don't want the script to trigger until the DOM is ready. You'll often see a script wrapped in this function:
 
+```
 $(document).ready(function() {
-put some Javascript here
+  // put some Javascript here
 });
+```
+
+This is equivalent to what we've been doing:
+
+```
+document.addEventListener("DOMContentLoaded", function() {
+  // put some javascript here
+});
+```
+
+---
+
+##jQuery More
+
+No more innerHTML!
+
+```
+var text = document.getElementById("mainText").innerHTML;
+document.getElementById("mainText").innerHTML = 'Yeah you know me'
+```
+
+This is equivalent to what we've been doing:
+
+```
+var text = $("mainText").text();
+$("#mainText").text('Yeah you know me');
+```
+
+---
+
+##jQuery Values
+
+
+```
+var value = document.getElementById("mainInput");
+document.getElementById('mainInput').value = 5;
+```
+
+This is equivalent to what we've been doing:
+
+```
+var value = $("input").val();
+$("#mainInput").val(5);
+```
 
 ---
 
@@ -97,7 +143,49 @@ Everything you need to know is here:
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Color Switcher
+##Theme Switcher
+
+---
+
+##JQuery Versions
+
+1.x supports IE 6, 7, and 8.
+
+Use 2.x when you don't have to support legacy browser, it will be faster, smaller, and better.
+
+---
+
+##Debugging
+
+There's one major caveat to using jQuery.
+
+This will throw an error, no wacky button this page.
+
+```
+document.getElementById("wackyButton").onclick = function() {
+  console.log("wacky");
+}
+```
+
+jQuery will fail silently. This still does nothing, but it won't throw an error anymore.
+
+```
+$("#wackyButton").click(function() {
+  console.log("wacky");
+})
+```
+
+---
+
+##Chaining
+
+You'll see in the examples that you can __chain__ multiple jQuery functions.
+
+```
+$( "p" ).removeClass( "myClass noClass" ).addClass( "yourClass" );
+```
+
+Why can you do this? Because just like $("p") returns back the DOM element, .removeClass also returns back the DOM element. Any jQuery function without an explicit return like .text() will return back the DOM element.
 
 ---
 
@@ -107,6 +195,7 @@ Everything you need to know is here:
 Hints!
 You'll need to know about:
 ```
+
 .toggleClass()
 .hasClass()
 .hide()
@@ -115,4 +204,5 @@ You'll need to know about:
 .siblings()
 .removeClass()
 .addClass()
+
 ```
