@@ -125,6 +125,7 @@ We can overwrite all the elements of an array simply by giving the array new val
 
 What if I would like to know how long my array is (how many elements)?
 	
+	var myArr = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 	console.log(myArr.length); //prints 4
 
 ---

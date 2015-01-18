@@ -1,4 +1,4 @@
-/* 
+/*
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
@@ -7,7 +7,7 @@ Developer @GA in NYC
 
 
 /******************************************
-/* SETUP                   
+/* SETUP
 /*******************************************/
 
 
@@ -27,17 +27,17 @@ Developer @GA in NYC
 }
 
 .alignright {
-	float: right; 
+	float: right;
 	padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
-	float: left; 
+	float: left;
 	padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
-/* BASE STYLES                   
+/* BASE STYLES
 /*******************************************/
 
 body {
@@ -49,7 +49,7 @@ body {
 
 
 /******************************************
-/* LAYOUT                   
+/* LAYOUT
 /*******************************************/
 
 /* Center the container */
@@ -60,9 +60,9 @@ body {
 
 header {
      background: #000;
-     height: 80px; 
+     height: 80px;
      color:#ccc;
-     font-size:17px; 
+     font-size:17px;
 }
 
 footer {
@@ -70,7 +70,7 @@ footer {
 }
 
 /******************************************
-/* ADDITIONAL STYLES                   
+/* ADDITIONAL STYLES
 /*******************************************/
 
 nav ul li {
@@ -111,20 +111,46 @@ nav ul li {
      -o-user-select: none;
      user-select: none;
 }
-#image-to-vote-on,#buttons-wrapper{
+#image-to-display,#buttons-wrapper{
      margin: 0 auto;
      width: 500px;
      text-align: center;
      display: block;
 }
-#image-to-vote-on{
+#image-to-display{
      margin-top: 50px;
 }
 #buttons-wrapper{
      margin-top:20px;
 }
-#image-to-vote-on+div{
+#image-to-display+div{
      text-align: center;
      font-size: 24px;
      color: green;
 }
+
+.progress-meter .progress {
+     text-decoration: none;
+     display: inline-block;
+     font-size: 11px;
+     height: 10px;
+     width: 10px;
+     line-height: 10px;
+     background: #fff;
+     color: #4E443C;
+     border-radius: 10px;
+     text-indent: -9999px;
+     margin-right: 7px;
+     -webkit-box-shadow: 0 0 2px #4E443C;
+     -moz-box-shadow: 0 0 2px #4E443C;
+     box-shadow: 0 0 2px #4E443C;
+}
+
+.progress-meter .progress.active {
+     background: #4E443C;
+     color: #fff;
+     opacity: 1;
+     -webkit-box-shadow: 0 0 2px #F0EFE7;
+     -moz-box-shadow: 0 0 2px #F0EFE7;
+     box-shadow: 0 0 2px #F0EFE7;
+};

@@ -4,17 +4,17 @@
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
-	
-		<title>Cute Scale</title>
-		
+
+		<title>Eat Scale</title>
+
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-		
+
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	</head>
 	<body>
-		
+
 			<header>
 				<nav>
 		            <ul>
@@ -24,30 +24,32 @@
 		                <li><a href="#">Your pic here!</a></li>
 		                <li><a href="#">Contact Us</a></li>
 		            </ul>
-		   	    </nav>            
-			</header> 	
+		   	    </nav>
+			</header>
 			<div id="container">
-				<img id="image-to-vote-on" src="images/animal1.jpg">
+				<img id="image-to-display" src="images/food1.jpg">
+				<div class="progress-meter">
+					<span class="progress active"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+				</div>
 				<div></div>
 				<div id="buttons-wrapper">
 					<form>
-						<input type="button" class="btn" value="Back">
-						<input type="button" class="btn" value="Skip">
-						<select id="your-vote">
-							<option value=""></option>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5">5</option>
-						</select>
+						<input type="button" class="btn" value="Back" id="back-button">
+						<input type="button" class="btn" value="Next" id="next-button">
 					</form>
 				</div>
 			</div>
 			<footer>
-				
+
 			</footer>
-		<!-- #container --> 
+		<!-- #container -->
 		<script src="js/index.js"></script>
 	</body>
 </html>
