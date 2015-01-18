@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
+  $("#grayButton");
   document.getElementById('grayButton').onclick = switchGray;
   document.getElementById('whiteButton').onclick = switchWhite;
   document.getElementById('blueButton').onclick = switchBlue;
