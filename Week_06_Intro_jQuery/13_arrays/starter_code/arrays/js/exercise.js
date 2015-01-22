@@ -10,7 +10,7 @@
  * Create an array of image sources. Use the strings 'image1.jpg', 'image2.jpg', and 'image3.jpg' as the array values.
  */
 
-var q1;
+var q1 = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
 
 /**
  * Question 2
@@ -18,7 +18,7 @@ var q1;
  * of the array in variable q2.
  */
 
-var q2;
+var q2 = q1[0];
 
 /**
  * Question 3
@@ -26,7 +26,7 @@ var q2;
  * and store it in variable q3
  */
 
-var q3;
+var q3 = q1.length;
 
 /**
  * Question 4
@@ -34,7 +34,7 @@ var q3;
  *  Hint: How can we get the number of elements in the array?
  */
 
-var q4;
+var q4 = q1[q1.length - 1];
 
 /**
  * Question 5
@@ -44,4 +44,7 @@ var q4;
  *  Extra Credit: Set the second image to to the 2nd element in the array
  */
 
-
+q1.forEach(function(ele, i) {
+  var imgTag = $("img").eq(index);
+  imgTag.attr("src", element);
+});

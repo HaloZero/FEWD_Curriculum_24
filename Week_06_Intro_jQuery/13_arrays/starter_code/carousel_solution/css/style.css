@@ -111,46 +111,45 @@ nav ul li {
      -o-user-select: none;
      user-select: none;
 }
-#image-to-display,#buttons-wrapper{
+
+#container{
      margin: 0 auto;
-     width: 500px;
+     width: 800px;
      text-align: center;
      display: block;
-}
-#image-to-display{
      margin-top: 50px;
 }
-#buttons-wrapper{
-     margin-top:20px;
+
+.list {
+     margin: 0 30px;
+     float: left;
+     border: 1px solid gray;
+     background-color: #e3e3e3;
 }
-#image-to-display+div{
+
+.list span {
+     font-weight: bold;
+     font-size: 25px;
+     margin: 5px;
      text-align: center;
-     font-size: 24px;
-     color: green;
+}
+.list li {
+     border: 1px solid black;
+     width: 300px;
+     font-size: 20px;
+     background-color: white;
+     margin: 0 5px;
 }
 
-.progress-meter .progress {
-     text-decoration: none;
-     display: inline-block;
-     font-size: 11px;
-     height: 10px;
-     width: 10px;
-     line-height: 10px;
-     background: #fff;
-     color: #4E443C;
-     border-radius: 10px;
-     text-indent: -9999px;
-     margin-right: 7px;
-     -webkit-box-shadow: 0 0 2px #4E443C;
-     -moz-box-shadow: 0 0 2px #4E443C;
-     box-shadow: 0 0 2px #4E443C;
+.list .new-input {
+     margin: 10px 0;
+     height: 45px;
 }
 
-.progress-meter .progress.active {
-     background: #4E443C;
-     color: #fff;
-     opacity: 1;
-     -webkit-box-shadow: 0 0 2px #F0EFE7;
-     -moz-box-shadow: 0 0 2px #F0EFE7;
-     box-shadow: 0 0 2px #F0EFE7;
-};
+.list input{
+     font-size: 15px;
+}
+
+.list button {
+     font-size: 15px;
+}
