@@ -3,7 +3,6 @@
 #FEWD - Advanced jQuery
 
 ###Rohan Dhaimade
-.
 
 ---
 
@@ -11,15 +10,14 @@
 ##Agenda
 
 *	Review of jQuery
+* Creating HTML
 * Event Objects
 * Traversing
 
 
-----
+---
 
 ##Review
-
-Remember, in jQuery, you must target something or else your script is for naught!
 
 You can target a tag, ID, or class. Remember, the selector goes at the beginning of your jQuery statement:
 
@@ -48,9 +46,9 @@ The syntax when using .attr is: .attr("attributename", "value");
 To show and hide elements on the page you can use
 
 ```
-.show()
-.hide()
-.toggle()
+$("p").show()
+$("p").hide()
+$("p").toggle()
 ```
 
 These are the equivalent of setting display: block (show) and display: none (hide) in CSS.
@@ -62,7 +60,7 @@ These are the equivalent of setting display: block (show) and display: none (hid
 Toggle will automatically switch beween hiding and showing for you.
 
 ```
-.toggle()
+$("p").toggle()
 ```
 
 ---
@@ -74,10 +72,16 @@ Some basic animation
 Sliding things up and down:
 
 ```
-.slideUp()
-.slideDown()
-.fadeIn()
-.fadeOut()
+$("p").slideUp()
+$("p").slideDown()
+```
+
+Fading in and out:
+
+```
+$("p").fadeIn()
+$("p").fadeOut()
+
 ```
 
 What is this actually doing? It's just modifying the CSS for you!
@@ -87,8 +91,8 @@ What is this actually doing? It's just modifying the CSS for you!
 ##Useful Functions##
 
 ```
-.slideToggle()
-.fadeToggle()
+$("p").slideToggle()
+$("p").fadeToggle()
 ```
 
 Works the same way as toggle. But will do the animation!
@@ -107,6 +111,26 @@ This will magically remove 'active' class to each element.
 
 ---
 
+## Code Along ##
+
+![GeneralAssemb.ly](../img/icons/code_along.png)
+
+---
+
+## Creating HTML in jQuery ##
+
+You can create some basic HTML elements in jQuery!
+
+You can then put it into your HTML!
+
+```
+var anchorTag = $("<a>").text('Hello');
+$("body").append(anchorTag);
+
+```
+
+---
+
 ## Event Target ##
 
 The function that you pass into click gives you access to an event object
@@ -121,9 +145,32 @@ So in this case $(event.target) will be $(#"some-id");
 
 ---
 
-## Code Along ##
+## Traversing the Tree ##
 
-Demonstrate how we can use this to simplify jQuery basic tabs.
+The first method of traversal is using .prev() and .next().
+
+This looks at the first selector you declared and then selects the next tag or previous tag from the one you've selected
+
+---
+
+## Traversing the Tree ##
+
+For instance your HTML is
+
+```
+<ul>
+  <li class="menu-item">Something</li>
+  <li>Something else</li>
+</ul>
+```
+
+```
+  $(".menu-item").prev(); // returns nothing
+```
+
+```
+  $(".menu-item").next(); // returns <li>Something Else</li>
+```
 
 ---
 
@@ -144,22 +191,13 @@ What do you use it for:
 
 ---
 
+## Lab ##
 
-Lab: Trello example
-You have multiple lists, and you have one working.
-The input on the bottom adds elements, but we need to hard code ids. Yuck.
+For the lab, take the code along and do the following things:
 
-So this demonstrates: Creating nodes (might be too much). Creating list items.
-The next button is close to my input tag, how do I get it from there instead of having to search the DOM for it.
-How do I get my list object so I know where to add things.
+1) When you add an item fade it in
+2) Create some HTML that keeps track of the number of items at the bottom of the list
 
-Another idea:
-  What if we just want to delete objects only. How do I get this working? I could hard code the ids.
-
-
-
-
-
-
-
+Extra Credit:
+3) When you click an item, make it delete
 
