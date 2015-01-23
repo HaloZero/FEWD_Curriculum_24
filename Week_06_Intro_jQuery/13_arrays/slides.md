@@ -2,9 +2,7 @@
 
 #FEWD - Arrays
 
-###Instructor Name
-
-Instructors current role.
+###Rohan Dhaimade
 
 ---
 
@@ -27,9 +25,9 @@ Instructors current role.
 
 ##Arrays
 
-What if we had a collection of images that we wanted to display to the screen one at a time? 
+What if we had a collection of images that we wanted to display to the screen one at a time?
 
-How could we store all the images? 
+How could we store all the images?
 
 ---
 
@@ -56,7 +54,7 @@ var myArr = new Array();
 var myArr = [ ];
 
 *	declaring an empty array using literal notation.
-	
+
 ---
 
 ##Declaring Arrays
@@ -65,13 +63,13 @@ myArr = ['Hello', 54.3, true];
 
 *	Arrays are filled with elements: i.e. myArr3 = [element, anotherElement];
 *	Elements can contain strings, numbers, booleans, and more.
-	
+
 
 ---
 
 ##Declaring Arrays
-	
-	
+
+
 If you leave a blank spot in an array it creates a blank shelf space (undefined) placeholder.
 
 ---
@@ -95,7 +93,7 @@ Array elements can be fetched by their index number (starts from 0).
 	console.log(myArr[1]); //prints undefined
 	console.log(myArr[2]); //prints 54.3
 	console.log(myArr[3]); //prints true
-	
+
 ---
 
 
@@ -112,11 +110,11 @@ We can insert new values into any space in the array using the positions index.
 ##Arrays Indexing
 
 We can overwrite all the elements of an array simply by giving the array new values or by setting an array equal to a different array.
-	
+
 	var fruits = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 	var myArr=[1,2,3];
 	myArr = fruits;
-	
+
 	console.log(myArr); //prints Apples, Oranges, Pears, Bananas
 
 ---
@@ -124,7 +122,7 @@ We can overwrite all the elements of an array simply by giving the array new val
 ##Array Length
 
 What if I would like to know how long my array is (how many elements)?
-	
+
 	var myArr = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 	console.log(myArr.length); //prints 4
 
