@@ -1,0 +1,19 @@
+a {
+  display: block;
+}
+
+#main-container img{
+  padding: 30px;
+  width: 90%;
+  height: 500px;
+}
+
+#images-container {
+  padding: 2%;
+  text-align: center;
+}
+#images-container img {
+  width: 30%;
+  height: 100px;
+  padding-right: 2%;
+}

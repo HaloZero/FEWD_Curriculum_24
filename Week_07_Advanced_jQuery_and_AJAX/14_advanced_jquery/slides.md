@@ -170,7 +170,7 @@ For instance your HTML is
 
 ```
   $(".menu-item").next(); // returns <li>Something Else</li>
-```
+```	
 
 ---
 
@@ -192,12 +192,4 @@ What do you use it for:
 ---
 
 ## Lab ##
-
-For the lab, take the code along and do the following things:
-
-1) When you add an item fade it in
-2) Create some HTML that keeps track of the number of items at the bottom of the list
-
-Extra Credit:
-3) When you click an item, make it delete
 

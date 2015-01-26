@@ -1,0 +1,21 @@
+a {
+  display: block;
+}
+
+#bookmarks {
+  margin: 10px 0;
+}
+#input-info {
+  border: 1px solid black;
+  padding: 10px 0;
+}
+
+#input-info input {
+  display: block;
+  margin: 10px;
+}
+
+#input-info label {
+  margin-left: 10px;
+}
+
