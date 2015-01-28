@@ -1,6 +1,3 @@
-// use this JSON to fill in the HTML fields!
-// use the example to see what it's supposed to look like
-
 var spotifyPlaylist = {
   'songs': [
     {
@@ -33,3 +30,12 @@ var spotifyPlaylist = {
     }
   ]
 };
+
+spotifyPlaylist['songs'].forEach(function(song, index) {
+  var songContainer = $('.song').eq(index);
+  songContainer.find('img').attr('src', song['image']);
+  songContainer.find('.title').text(song['name']);
+  songContainer.find('.artist_name').text(song['artist']);
+  songContainer.find('popularity').text(song['popularity']);
+  songContainer.find('a').attr('href', song['track_preview_url']);
+});
