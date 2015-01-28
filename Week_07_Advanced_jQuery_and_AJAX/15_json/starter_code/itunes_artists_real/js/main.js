@@ -5,6 +5,6 @@ $.ajax({
   url: "https://itunes.apple.com/search?term=abba",
   crossDomain: true,
   dataType: "jsonp"
-}).done(function(data) {
-  console.log(data);
+}).done(function(musicPlaylist) {
+  console.log(musicPlaylist);
 });
