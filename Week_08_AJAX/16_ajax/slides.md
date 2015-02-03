@@ -11,6 +11,7 @@
 
 * Review of JSON
 * APIs
+* AJAX
 
 ---
 
@@ -105,7 +106,7 @@ JSON Quiz
 
 ## APIs
 
-APIs are basically websites in which instead of returning a web page, will return JSON. They use the same format as requesting HTML pages, but return JSON
+APIs are basically websites in which instead of returning HTML, will return JSON. They use the same format as requesting HTML pages, but return JSON
 
 ---
 
@@ -117,6 +118,8 @@ http://www.rottentomatoes.com/search/?search=captain+america
 2. A path __www.rottentomatoes.com/search/__
 3. Parameters __search=captain+america__
 
+<br>
+The __?__ separates the __path__ from the __parameters__!
 ---
 
 ## APIs
@@ -140,8 +143,9 @@ URL for the API:
 http://www.omdbapi.com/
 
 Parameters include:
-s = search parameter
-type = type of movie
+
+* s = search parameter
+* type = type of movie
 
 The API documentation should specify what parameters are.
 
@@ -159,9 +163,9 @@ Or there should be an Apps bookmark in the top left of Chrome
 
 ## Let's play with the APIs
 
-1) Find me all movies with the word 'Lego'
-2) Find me all movies with the word 'Lego' released in 2013
-3) Find me all TV series that have the word 'star'
+1. Find me all movies with the word 'Lego'
+2. Find me all movies with the word 'Lego' released in 2013
+3. Find me all TV series that have the word 'star'
 
 ---
 
