@@ -1,0 +1,39 @@
+a {
+  display: block;
+}
+
+h3 {
+  margin: 0;
+}
+
+#playlist {
+
+}
+
+.song, .example-song  {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  float: left;
+  text-align: center
+}
+
+.song img, .example-song img {
+  width: 200px;
+
+}
+
+.song .title, .example-song .example-title {
+  font-weight: bold;
+}
+
+#search-container {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#search-container header {
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 10px 0;
+}
