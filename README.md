@@ -95,3 +95,4 @@ In order to pass this course General Assembly students must:
 If you have any questions please send them to your Education Product Manager, [Jessica Skeete](jessicat@generalassemb.ly)
 
 
+# FEWD_Curriculum_33
